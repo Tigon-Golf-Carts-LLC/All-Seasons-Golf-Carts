@@ -24,14 +24,19 @@ import {
   Car,
 } from "lucide-react";
 import xt4Red from "@assets/EVOLUTION_D-MAX_XT4_RED_1768250430375.png";
+import xt4White from "@assets/EVOLUTION_D-MAX_XT4_WHITE_1768251453734.png";
+import xt4Black from "@assets/EVOLUTION_D-MAX_XT4_BLACK_1768251453733.png";
+import xt4Blue from "@assets/EVOLUTION_D-MAX_XT4_BLUE_1768251453733.png";
+import xt4Gray from "@assets/EVOLUTION_D-MAX_XT4_GRAY_1768251453733.png";
+import xt4SkyBlue from "@assets/EVOLUTION_D-MAX_XT4_SKY_BLUE_1768251453732.png";
 
 const colorImages: Record<string, string> = {
-  white: xt4Red,
-  black: xt4Red,
-  blue: xt4Red,
-  gray: xt4Red,
+  white: xt4White,
+  black: xt4Black,
+  blue: xt4Blue,
+  gray: xt4Gray,
   red: xt4Red,
-  "sky-blue": xt4Red,
+  "sky-blue": xt4SkyBlue,
 };
 
 export default function ModelXT4() {

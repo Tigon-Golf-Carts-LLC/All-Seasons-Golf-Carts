@@ -20,14 +20,19 @@ import {
   Volume2,
 } from "lucide-react";
 import xt6Red from "@assets/EVOLUTION_D-MAX_XT6_RED_1768250430374.png";
+import xt6White from "@assets/EVOLUTION_D-MAX_XT6_WHITE_1768251535645.png";
+import xt6Black from "@assets/EVOLUTION_D-MAX_XT6_BLACK_1768251535645.png";
+import xt6Blue from "@assets/EVOLUTION_D-MAX_XT6_BLUE_1768251535644.png";
+import xt6Gray from "@assets/EVOLUTION_D-MAX_XT6_GRAY_1768251535644.png";
+import xt6SkyBlue from "@assets/EVOLUTION_D-MAX_XT6_SKY_BLUE_1768251535644.png";
 
 const colorImages: Record<string, string> = {
-  white: xt6Red,
-  black: xt6Red,
-  blue: xt6Red,
-  gray: xt6Red,
+  white: xt6White,
+  black: xt6Black,
+  blue: xt6Blue,
+  gray: xt6Gray,
   red: xt6Red,
-  "sky-blue": xt6Red,
+  "sky-blue": xt6SkyBlue,
 };
 
 export default function ModelXT6() {

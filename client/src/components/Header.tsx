@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Sun, Moon } from "lucide-react";
+import logoImage from "@assets/allterraingolfcarts.com_1768251737476.png";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,9 +65,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" data-testid="link-home-logo">
             <div className="flex items-center gap-2 cursor-pointer">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-md bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg lg:text-xl">AT</span>
-              </div>
+              <img 
+                src={logoImage} 
+                alt="ALL Terrain Golf Carts Logo" 
+                className="w-12 h-12 lg:w-14 lg:h-14 object-contain"
+              />
               <div className="hidden sm:block">
                 <h1 className="font-bold text-lg lg:text-xl tracking-tight">
                   ALL Terrain

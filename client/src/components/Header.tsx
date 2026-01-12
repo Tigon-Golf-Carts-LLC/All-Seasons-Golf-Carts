@@ -1,0 +1,153 @@
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "wouter";
+import { Button } from "@/components/ui/button";
+import { Menu, X, Sun, Moon } from "lucide-react";
+
+export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isDark, setIsDark] = useState(false);
+  const [location] = useLocation();
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const shouldBeDark = savedTheme === "dark" || (!savedTheme && prefersDark);
+    setIsDark(shouldBeDark);
+    if (shouldBeDark) {
+      document.documentElement.classList.add("dark");
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const toggleTheme = () => {
+    const newIsDark = !isDark;
+    setIsDark(newIsDark);
+    if (newIsDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  };
+
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/xt4", label: "D-MAX XT4" },
+    { href: "/xt6", label: "D-MAX XT6" },
+    { href: "/contact", label: "Contact" },
+  ];
+
+  const isActive = (href: string) => {
+    if (href === "/" && location === "/") return true;
+    if (href !== "/" && location.startsWith(href)) return true;
+    return false;
+  };
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-md"
+          : "bg-transparent"
+      }`}
+    >
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
+          <Link href="/" data-testid="link-home-logo">
+            <div className="flex items-center gap-2 cursor-pointer">
+              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-md bg-primary flex items-center justify-center">
+                <span className="text-primary-foreground font-bold text-lg lg:text-xl">AT</span>
+              </div>
+              <div className="hidden sm:block">
+                <h1 className="font-bold text-lg lg:text-xl tracking-tight">
+                  ALL Terrain
+                </h1>
+                <p className="text-xs text-muted-foreground -mt-1">Golf Carts</p>
+              </div>
+            </div>
+          </Link>
+
+          <div className="hidden lg:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                <span
+                  className={`text-sm font-medium transition-colors cursor-pointer ${
+                    isActive(link.href)
+                      ? "text-primary"
+                      : "text-foreground/80 hover:text-foreground"
+                  }`}
+                  data-testid={`link-nav-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
+                >
+                  {link.label}
+                </span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <Button
+              size="icon"
+              variant="ghost"
+              onClick={toggleTheme}
+              data-testid="button-theme-toggle"
+            >
+              {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            </Button>
+            
+            <Link href="/contact" className="hidden lg:block">
+              <Button data-testid="button-get-quote">
+                Get a Quote
+              </Button>
+            </Link>
+
+            <Button
+              size="icon"
+              variant="ghost"
+              className="lg:hidden"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              data-testid="button-mobile-menu"
+            >
+              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </Button>
+          </div>
+        </div>
+      </nav>
+
+      {isMenuOpen && (
+        <div className="lg:hidden bg-background/98 backdrop-blur-lg border-b border-border">
+          <div className="px-4 py-6 space-y-4">
+            {navLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                <div
+                  className={`block py-3 px-4 rounded-md font-medium transition-colors cursor-pointer ${
+                    isActive(link.href)
+                      ? "bg-primary/10 text-primary"
+                      : "hover:bg-muted"
+                  }`}
+                  onClick={() => setIsMenuOpen(false)}
+                  data-testid={`link-mobile-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
+                >
+                  {link.label}
+                </div>
+              </Link>
+            ))}
+            <Link href="/contact">
+              <Button className="w-full mt-4" onClick={() => setIsMenuOpen(false)} data-testid="button-mobile-quote">
+                Get a Quote
+              </Button>
+            </Link>
+          </div>
+        </div>
+      )}
+    </header>
+  );
+}

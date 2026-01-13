@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon, Phone } from "lucide-react";
 import logoImage from "@assets/allterraingolfcarts.com_1768251737476.png";
 
 export function Header() {
@@ -106,11 +106,12 @@ export function Header() {
               {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </Button>
             
-            <Link href="/contact" className="hidden lg:block">
-              <Button data-testid="button-get-quote">
-                Get a Quote
+            <a href="tel:1-844-884-6744" className="hidden lg:block">
+              <Button className="gap-2" data-testid="button-call-now-header">
+                <Phone className="w-4 h-4" />
+                Call Now
               </Button>
-            </Link>
+            </a>
 
             <Button
               size="icon"
@@ -143,11 +144,12 @@ export function Header() {
                 </div>
               </Link>
             ))}
-            <Link href="/contact">
-              <Button className="w-full mt-4" onClick={() => setIsMenuOpen(false)} data-testid="button-mobile-quote">
-                Get a Quote
+            <a href="tel:1-844-884-6744">
+              <Button className="w-full mt-4 gap-2" onClick={() => setIsMenuOpen(false)} data-testid="button-mobile-call-now">
+                <Phone className="w-4 h-4" />
+                Call Now
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       )}

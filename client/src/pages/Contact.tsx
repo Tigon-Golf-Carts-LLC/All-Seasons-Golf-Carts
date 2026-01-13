@@ -218,10 +218,10 @@ export default function Contact() {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <p className="font-medium">Address</p>
+                      <p className="font-medium">WE SHIP NATIONWIDE</p>
                       <p className="text-sm text-muted-foreground">
                         NATIONWIDE<br />
-                        DELIVERY AVAILABLE
+                        DELIVERY
                       </p>
                     </div>
                   </div>
@@ -277,7 +277,7 @@ export default function Contact() {
               <Card className="p-6 bg-primary text-primary-foreground">
                 <h3 className="font-bold text-lg mb-2">Schedule a Test Drive</h3>
                 <p className="text-sm text-primary-foreground/90 mb-4">
-                  Experience the power of 4X4 firsthand. Schedule your test drive today!
+                  Experience the power of 4X4 golf cart firsthand. Schedule your test drive today!
                 </p>
                 <Button variant="secondary" className="w-full" asChild>
                   <a href="tel:1-844-884-6744" data-testid="button-call-now">Call Now</a>
@@ -299,7 +299,7 @@ export default function Contact() {
                 </div>
                 <h3 className="font-semibold mb-2">Authorized Dealer</h3>
                 <p className="text-sm text-muted-foreground">
-                  Official EVolution dealer with factory-trained technicians
+                  Official all seasons golf cart dealer with factory-trained technicians
                 </p>
               </div>
               <div className="text-center">

@@ -38,12 +38,12 @@ export default function Home() {
                 Premium 4X4 Electric Golf Carts
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-6">
-                Conquer{" "}
-                <span className="text-gradient">Any Terrain</span>
+                All Terrain{" "}
+                <span className="text-gradient">Golf Carts</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8">
                 Experience the power of dual-motor 4X4 capability combined with luxury comfort. 
-                The EVolution D-MAX series redefines what a golf cart can do.
+                The EVolution D-MAX XT series redefines what a golf cart can do.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link href="/xt4">

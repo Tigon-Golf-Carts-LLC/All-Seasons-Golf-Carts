@@ -233,11 +233,11 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Phone</p>
                       <a 
-                        href="tel:+14075551234" 
+                        href="tel:1-844-884-6744" 
                         className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                         data-testid="link-contact-phone"
                       >
-                        (407) 555-1234
+                        (844) 884-6744
                       </a>
                     </div>
                   </div>
@@ -280,7 +280,7 @@ export default function Contact() {
                   Experience the power of 4X4 firsthand. Schedule your test drive today!
                 </p>
                 <Button variant="secondary" className="w-full" asChild>
-                  <a href="tel:+14075551234" data-testid="button-call-now">Call Now</a>
+                  <a href="tel:1-844-884-6744" data-testid="button-call-now">Call Now</a>
                 </Button>
               </Card>
             </div>

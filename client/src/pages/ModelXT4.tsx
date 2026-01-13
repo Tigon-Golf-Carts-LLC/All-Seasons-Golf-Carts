@@ -31,6 +31,21 @@ import xt4Blue from "@assets/EVOLUTION_D-MAX_XT4_BLUE_1768251453733.png";
 import xt4Gray from "@assets/EVOLUTION_D-MAX_XT4_GRAY_1768251453733.png";
 import xt4SkyBlue from "@assets/EVOLUTION_D-MAX_XT4_SKY_BLUE_1768251453732.png";
 
+import featureTouchscreen from "@assets/10.1-INCH_MULTI-FUNCTIONAL_TOUCHSCREEN_XT4_1768315763571.jpg";
+import featureSpeakers from "@assets/Immersive_Surround_Sound_Experience_XT4_1768315763571.jpg";
+import feature4WD from "@assets/ON-DEMAND_4-WHEEL_DRIVE_XT4_1768315763571.jpg";
+import featureSteering from "@assets/Electric_Power_Steering_XT4_1768315763571.jpg";
+import featureCharging from "@assets/Dual_Wireless_Charging_Pad_XT4_1768315763571.jpg";
+import featureRefrigerator from "@assets/BUILT-IN_DASH_REFRIGERATOR_XT4_1768315763570.jpg";
+import featureBasket from "@assets/Foldable_Rear_storage_basket_XT4_1768315763570.jpg";
+import featureCooler from "@assets/Slide-out_Tray_&_Portable_Cooler_XT4_1768315763570.jpg";
+import featureTray from "@assets/Extended_Tray_with_Bag_Holder_Extension_XT4_1768315763570.jpg";
+import featureSeats from "@assets/Evolution_Iconic_Luxury_Seats_XT4_1768315763569.jpg";
+import featureComfort from "@assets/All-in-One_Passenger_Comfort_XT4_1768315763569.jpg";
+import featureLED from "@assets/LED_LIGHTING_XT4_1768315763569.jpg";
+import featureRunningBoard from "@assets/running_board_XT4_1768315763569.jpg";
+import featureWheels from "@assets/16X8.5_Aluminum_Wheels_XT4_1768315763568.jpg";
+
 const colorImages: Record<string, string> = {
   white: xt4White,
   black: xt4Black,
@@ -97,6 +112,79 @@ export default function ModelXT4() {
     "License Plate Bracket & Light",
     "Extended Mirrors",
     "LED Light Bars",
+  ];
+
+  const premiumFeatures = [
+    {
+      image: featureTouchscreen,
+      title: "10.1-Inch Multi-Functional Touchscreen",
+      description: "Elevate your adventures with the 10.1-inch touchscreen, Apple CarPlay and Android Auto compatible, offering seamless access to navigation, music, and calls, keeping you connected and entertained on every drive."
+    },
+    {
+      image: featureSpeakers,
+      title: "Immersive Surround Sound Experience",
+      description: "Experience immersive audio with a 24-speaker sound system that delivers rich, surrounding sound, elevating every drive with high-quality acoustics."
+    },
+    {
+      image: feature4WD,
+      title: "On-Demand 4-Wheel Drive",
+      description: "Elevate your driving experience with the Evolution D-MAX on-demand 4-wheel drive system. Featuring dual independent electric motors and controllers, this system seamlessly switches between 2-wheel and 4-wheel drive modes to suit your preferences."
+    },
+    {
+      image: featureSteering,
+      title: "Electric Power Steering",
+      description: "Enjoy precise, effortless control with advanced electric power steering, designed to deliver smooth, responsive handling for a truly refined driving experience. Whether navigating tight spaces or cruising open paths, this feature ensures comfortable, fatigue-free steering."
+    },
+    {
+      image: featureCharging,
+      title: "Dual Wireless Charging Pad",
+      description: "Power Up on the Go - Keep your devices powered up effortlessly with the dual wireless charging pad on the dash, designed to charge two cell phones simultaneously, ensuring you stay connected without the clutter of cables."
+    },
+    {
+      image: featureRefrigerator,
+      title: "Built-In Dash Refrigerator",
+      description: "Refreshments at Your Fingertips - Keep your refreshments cool and within reach with the built-in dash refrigerator, adding a touch of convenience and luxury to every journey."
+    },
+    {
+      image: featureBasket,
+      title: "Foldable Rear Storage Basket",
+      description: "Maximize convenience with the foldable rear storage basket, featuring a portable inner fabric utility box for easy storage. Simple to fold and unfold, it's designed to keep your essentials organized and accessible on the go."
+    },
+    {
+      image: featureCooler,
+      title: "Slide-out Tray & Portable Cooler",
+      description: "Enjoy ultimate versatility with the retractable rear tray, equipped with a 74-QT detachable cooler that doubles as a portable unit. Featuring wheels and pull handles, it's easy to take along, keeping refreshments cool and convenient wherever you go."
+    },
+    {
+      image: featureTray,
+      title: "Extended Tray with Bag Holder Extension",
+      description: "Transform the rear of your golf car with the fully extended retractable tray, equipped with an optional golf bag holder extension to securely carry up to four golf bags. Perfect for group outings."
+    },
+    {
+      image: featureSeats,
+      title: "Evolution Iconic Luxury Seats",
+      description: "Experience unmatched sporty comfort with luxurious seats, expertly crafted from premium fine leather and detailed with exquisite stitching. Equipped with three-point seatbelts for a perfect blend of elegance and safety."
+    },
+    {
+      image: featureComfort,
+      title: "All-in-One Passenger Comfort",
+      description: "Enhance rear-seat functionality with the thoughtfully designed seat back cover assembly, featuring an integrated handrail, convenient cupholder, concealed hook, storage pocket, and USB charging ports."
+    },
+    {
+      image: featureLED,
+      title: "LED Lighting",
+      description: "Illuminate Your Journey with D-MAX advanced LED lighting system! Featuring a luminous logo, powerful LED headlights, and sleek taillights, each element is meticulously designed to enhance your ride with unmatched style."
+    },
+    {
+      image: featureRunningBoard,
+      title: "Illuminated Running Board",
+      description: "D-MAX XT4 features an illuminous running board, enhancing both functionality and aesthetic appeal. This feature facilitates easier entry and exit while adding a distinctive, glowing touch to the vehicle's profile."
+    },
+    {
+      image: featureWheels,
+      title: "16x8.5 Aluminum Wheels with All-Terrain Tires",
+      description: "D-Max XT4 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-terrain tires, delivering enhanced performance and superior traction on diverse surfaces for a smooth, controlled ride."
+    },
   ];
 
   return (
@@ -328,6 +416,42 @@ export default function ModelXT4() {
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Premium Features</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Discover the innovative technology and luxury amenities that make the D-MAX XT4 
+              the ultimate 4-passenger golf cart experience.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {premiumFeatures.map((feature, index) => (
+              <div 
+                key={index} 
+                className="bg-card rounded-xl overflow-hidden shadow-sm border border-border"
+                data-testid={`feature-card-${index}`}
+              >
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img
+                    src={feature.image}
+                    alt={feature.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

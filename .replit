@@ -41,5 +41,5 @@ waitForPort = 5000
 [userenv]
 
 [userenv.shared]
-"SMTP_USER:" = "callterraingolfcarts@gmail.com"
+"SMTP_USER:" = "allterraingolfcarts@gmail.com"
 "SMTP_PASS:" = "xervtyrqtivhuvnaw"

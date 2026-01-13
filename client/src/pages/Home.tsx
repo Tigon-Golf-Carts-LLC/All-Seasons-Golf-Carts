@@ -38,7 +38,8 @@ export default function Home() {
                 Premium 4X4 Electric Golf Carts
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-6">
-                All Terrain{" "}
+                All Terrain
+                <br />
                 <span className="text-gradient">Golf Carts</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8">

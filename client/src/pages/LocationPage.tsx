@@ -478,7 +478,7 @@ export default function LocationPage() {
                     <div className="flex flex-col gap-2">
                       <div className="flex items-center gap-2 text-sm">
                         <CheckCircle2 className="w-4 h-4 text-primary" />
-                        <span>Free delivery quotes available</span>
+                        <span>Nationwide Delivery Available</span>
                       </div>
                       <div className="flex items-center gap-2 text-sm">
                         <CheckCircle2 className="w-4 h-4 text-primary" />

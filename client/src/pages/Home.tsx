@@ -37,7 +37,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             <div className="text-center lg:text-left order-2 lg:order-1">
               <Badge variant="secondary" className="mb-4">
-                Premium 4X4 Electric Golf Carts
+                All Seasons - 4WD Electric Golf Carts
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-6">
                 All Seasons
@@ -100,7 +100,7 @@ export default function Home() {
               Choose Your Adventure
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Two powerful models designed for different needs. Both equipped with 
+              Two powerful all season models designed for different needs. Both equipped with 
               our legendary 4X4 all-season capability.
             </p>
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
                 </div>
                 <p className="text-muted-foreground mb-6">
                   Extended capacity with the same powerful dual-motor 4WD system. Perfect for 
-                  families or groups who need room without compromising capability.
+                  every season, and families or groups who need room without compromising capability.
                 </p>
                 <div className="flex items-center justify-between">
                   <div>
@@ -221,7 +221,7 @@ export default function Home() {
               <div className="mt-8">
                 <Link href="/evolution-d-max-xt4">
                   <Button size="lg" className="gap-2" data-testid="button-learn-4x4">
-                    Learn More About 4X4
+                    Learn More About All Season 4X4 Capability
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
@@ -259,12 +259,12 @@ export default function Home() {
       <section className="py-16 lg:py-24 bg-card" id="features">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 lg:mb-16">
-            <Badge variant="outline" className="mb-4">Premium Features</Badge>
+            <Badge variant="outline" className="mb-4">Premium All Season Features</Badge>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
               Luxury Meets Capability
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Every D-MAX comes loaded with premium features that elevate your driving experience.
+              All season golf carts come loaded with premium features that elevate your driving experience no mater the weather.
             </p>
           </div>
 
@@ -313,11 +313,11 @@ export default function Home() {
             </div>
             <div className="relative">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
-                Ready to Experience the Difference?
+                Ready to Experience a all season golf cart?
               </h2>
               <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto mb-8">
                 Contact us today to schedule a test drive or get a personalized quote 
-                for your new EVolution D-MAX golf cart.
+                for your all season golf cart.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/contact">
@@ -345,10 +345,10 @@ export default function Home() {
               Nationwide Service
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              4X4 Golf Carts Available Across the USA
+              All Season Golf Carts Available Across the USA
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We deliver EVolution D-MAX 4X4 golf carts to all 50 states and U.S. territories. 
+              We deliver all season golf carts to all 50 states and U.S. territories. 
               Click your location to learn more.
             </p>
           </div>

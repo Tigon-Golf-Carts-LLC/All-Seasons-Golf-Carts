@@ -42,7 +42,6 @@ import featureComfort from "@assets/All-in-One_Passenger_Comfort_XT6_17683152599
 import featureLED from "@assets/LED_LIGHTING_XT6_1768315259912.jpg";
 import featureRunningBoard from "@assets/running_board_XT6_1768315259911.jpg";
 import featureWheels from "@assets/16x8.5_Aluminum_Wheel_24x10R16_Quiet_All-Terrain_Tires_XT6T_1768315259911.jpg";
-import mountainBg from "@assets/stock_images/mountain_landscape_s_e3842dcf.jpg";
 
 const colorImages: Record<string, string> = {
   white: xt6White,
@@ -175,13 +174,8 @@ export default function ModelXT6() {
     <>
       <VehicleSchema model="xt6" />
       <div className="min-h-screen pt-20">
-        <section className="py-8 lg:py-16 relative overflow-hidden">
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${mountainBg})` }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-8 lg:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="sticky top-24">
               <div className="aspect-[4/3] bg-gradient-to-br from-muted to-muted/50 rounded-2xl p-4 lg:p-8 relative overflow-hidden">

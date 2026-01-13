@@ -46,7 +46,6 @@ import featureComfort from "@assets/All-in-One_Passenger_Comfort_XT4_17683157635
 import featureLED from "@assets/LED_LIGHTING_XT4_1768315763569.jpg";
 import featureRunningBoard from "@assets/running_board_XT4_1768315763569.jpg";
 import featureWheels from "@assets/16X8.5_Aluminum_Wheels_XT4_1768315763568.jpg";
-import mountainBg from "@assets/stock_images/mountain_landscape_s_e3842dcf.jpg";
 
 const colorImages: Record<string, string> = {
   white: xt4White,
@@ -193,13 +192,8 @@ export default function ModelXT4() {
     <>
       <VehicleSchema model="xt4" />
       <div className="min-h-screen pt-20">
-        <section className="py-8 lg:py-16 relative overflow-hidden">
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${mountainBg})` }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-8 lg:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="sticky top-24">
               <div className="aspect-[4/3] bg-gradient-to-br from-muted to-muted/50 rounded-2xl p-4 lg:p-8 relative overflow-hidden">

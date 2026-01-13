@@ -4,119 +4,84 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
-  ArrowRight, 
   DollarSign, 
-  CreditCard, 
-  CheckCircle2, 
   Shield, 
   Clock, 
   Percent,
   Building2,
-  Home,
-  Users,
   Sparkles,
-  Phone
+  Phone,
+  ExternalLink,
+  Zap,
+  CreditCard,
+  RefreshCw
 } from "lucide-react";
 import allSeasonsBg from "@assets/ALL_SEASONS_GOLF_CARTS_1768325026733.png";
 
 interface FinancingOption {
   id: string;
   name: string;
+  subtitle: string;
   description: string;
-  features: string[];
-  ctaText: string;
   externalUrl: string;
-  icon: typeof DollarSign;
-  badge?: string;
+  badgeText: string;
+  badgeIcon: typeof DollarSign;
 }
 
 const financingOptions: FinancingOption[] = [
   {
     id: "sheffield",
     name: "Sheffield Financial",
-    description: "Get prequalified with no impact to your credit. Quick and easy application process for all credit types.",
-    features: [
-      "No credit impact prequalification",
-      "Fast approval process",
-      "Competitive rates available",
-      "Flexible payment terms"
-    ],
-    ctaText: "Prequalify Now",
+    subtitle: "Prequalify Now",
+    description: "Get prequalified with no impact to your credit. Quick and easy approval process for all terrain golf cart financing.",
     externalUrl: "https://prequalify.sheffieldfinancial.com/Apply/Dealer/56712?source=web",
-    icon: Shield,
-    badge: "Popular Choice"
+    badgeText: "No Credit Impact",
+    badgeIcon: Shield
   },
   {
-    id: "rent-to-own",
-    name: "Rent To Own",
-    description: "Helping golf cart customers achieve ownership. Flexible rent-to-own programs designed to fit your budget.",
-    features: [
-      "Path to ownership",
-      "Flexible monthly payments",
-      "No long-term commitment required",
-      "Build equity over time"
-    ],
-    ctaText: "Apply Now",
+    id: "bli-rentals",
+    name: "BLI Rentals",
+    subtitle: "Rent To Own",
+    description: "Helping golf cart customers achieve ownership. Flexible rent-to-own options for your all terrain golf cart purchase.",
     externalUrl: "https://blirentals.com/app/TIGON_GOLFCARTS_LLC",
-    icon: Home
+    badgeText: "Rent To Own",
+    badgeIcon: RefreshCw
   },
   {
     id: "dll",
     name: "DLL Financial Solutions",
-    description: "Get the lowest APR without hidden fees. Transparent financing with straightforward terms.",
-    features: [
-      "Lowest APR available",
-      "No hidden fees",
-      "Transparent terms",
-      "Professional service"
-    ],
-    ctaText: "Apply Now",
+    subtitle: "Low APR Financing",
+    description: "Get the lowest APR without hidden fees. Transparent financing solutions for your 4X4 golf cart.",
     externalUrl: "https://applynow-cica-prd.dllgroup.com/?entityId=4&dealerCode=015639",
-    icon: Percent,
-    badge: "Best Rates"
+    badgeText: "Lowest APR",
+    badgeIcon: Percent
   },
   {
-    id: "consumer",
-    name: "Consumer Financing",
-    description: "Get ready to ride with consumer financing. Simple application with quick decisions.",
-    features: [
-      "Quick approval decisions",
-      "Consumer-friendly terms",
-      "Easy online application",
-      "Multiple term options"
-    ],
-    ctaText: "Apply Now",
+    id: "roadrunner",
+    name: "Roadrunner Financial",
+    subtitle: "Consumer Financing",
+    description: "Get ready to ride with consumer financing. Fast approvals and competitive rates for all terrain golf carts.",
     externalUrl: "https://octane.co/flex/034170",
-    icon: Users
+    badgeText: "Fast Approval",
+    badgeIcon: Zap
   },
   {
     id: "univest",
     name: "Univest Capital",
-    description: "Customized solutions for your specific business needs. Commercial financing for fleet and business use.",
-    features: [
-      "Business financing solutions",
-      "Customized payment plans",
-      "Fleet financing available",
-      "Tax benefits for business"
-    ],
-    ctaText: "Apply Now",
+    subtitle: "Business Financing",
+    description: "Customized solutions for your specific business needs. Commercial financing options for fleet purchases.",
     externalUrl: "https://form.jotform.com/UnivestCapital/credit-application-bakos?utm_source=All+Seasons+Golf+Carts&utm_medium=Financing&utm_campaign=Business&utm_term=Best+Golf+Cart+Financing",
-    icon: Building2,
-    badge: "Business"
+    badgeText: "Business Solutions",
+    badgeIcon: Building2
   },
   {
     id: "dealer-direct",
     name: "Dealer Direct Financing",
-    description: "Buy now, pay later with Dealer Direct Financing. Convenient financing right from the dealership.",
-    features: [
-      "Buy now, pay later",
-      "In-house financing",
-      "Quick approvals",
-      "Personalized service"
-    ],
-    ctaText: "Apply Now",
+    subtitle: "Buy Now, Pay Later",
+    description: "Buy now, pay later with dealer direct financing. Flexible payment plans for your all terrain golf cart.",
     externalUrl: "https://dealerdirect.apptraker.com/my/guest?dealer=10735",
-    icon: CreditCard
+    badgeText: "Buy Now Pay Later",
+    badgeIcon: CreditCard
   }
 ];
 
@@ -222,33 +187,23 @@ export default function Financing() {
               {financingOptions.map((option) => (
                 <Card 
                   key={option.id} 
-                  className="p-6 flex flex-col h-full hover-elevate"
+                  className="p-6 flex flex-col h-full bg-card/80 dark:bg-zinc-900 border-border/50 hover-elevate"
                   data-testid={`card-financing-${option.id}`}
                 >
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="w-12 h-12 rounded-md bg-primary/10 flex items-center justify-center">
-                      <option.icon className="w-6 h-6 text-primary" />
-                    </div>
-                    {option.badge && (
-                      <Badge variant="secondary" className="text-xs">
-                        {option.badge}
-                      </Badge>
-                    )}
+                  <div className="mb-4">
+                    <Badge className="bg-primary/20 text-primary border-primary/30 hover:bg-primary/20">
+                      <option.badgeIcon className="w-3 h-3 mr-1.5" />
+                      {option.badgeText}
+                    </Badge>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-2">{option.name}</h3>
-                  <p className="text-muted-foreground text-sm mb-4 flex-grow">
+                  <h3 className="text-xl font-bold mb-1">{option.name}</h3>
+                  <p className="text-primary font-medium text-sm mb-4">
+                    {option.subtitle}
+                  </p>
+                  <p className="text-muted-foreground text-sm mb-6 flex-grow">
                     {option.description}
                   </p>
-                  
-                  <ul className="space-y-2 mb-6">
-                    {option.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-sm">
-                        <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
-                        <span>{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
                   
                   <a 
                     href={option.externalUrl} 
@@ -257,8 +212,8 @@ export default function Financing() {
                     className="mt-auto"
                   >
                     <Button className="w-full gap-2" data-testid={`button-apply-${option.id}`}>
-                      {option.ctaText}
-                      <ArrowRight className="w-4 h-4" />
+                      Quick Apply
+                      <ExternalLink className="w-4 h-4" />
                     </Button>
                   </a>
                 </Card>

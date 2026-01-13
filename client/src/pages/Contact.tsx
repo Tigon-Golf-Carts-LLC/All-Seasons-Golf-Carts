@@ -82,7 +82,7 @@ export default function Contact() {
               Let's Talk About Your Next Ride
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Have questions about the EVolution D-MAX series? Ready for a test drive? 
+              Have questions about all season golf carts? Ready for a test drive? 
               Fill out the form below or contact us directly.
             </p>
           </div>
@@ -220,8 +220,8 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Address</p>
                       <p className="text-sm text-muted-foreground">
-                        123 Golf Cart Lane<br />
-                        Orlando, FL 32801
+                        NATIONWIDE<br />
+                        DELIVERY AVAILABLE
                       </p>
                     </div>
                   </div>

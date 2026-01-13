@@ -87,7 +87,14 @@ export async function registerRoutes(
       
       if (process.env.SMTP_USER && process.env.SMTP_PASS) {
         try {
-          await sendContactEmail(validatedData);
+          await sendContactEmail({
+            firstName: validatedData.firstName,
+            lastName: validatedData.lastName,
+            email: validatedData.email,
+            phone: validatedData.phone ?? null,
+            model: validatedData.model ?? null,
+            message: validatedData.message,
+          });
         } catch (emailError) {
           console.error("Failed to send email notification:", emailError);
         }

@@ -267,8 +267,8 @@ export default function Contact() {
                     <Clock className="w-5 h-5 text-primary" />
                   </div>
                   <div className="text-sm text-muted-foreground space-y-1">
-                    <p><span className="font-medium text-foreground">Mon - Fri:</span> 9:00 AM - 6:00 PM</p>
-                    <p><span className="font-medium text-foreground">Saturday:</span> 10:00 AM - 4:00 PM</p>
+                    <p><span className="font-medium text-foreground">Mon - Fri:</span> 9:00 AM - 5:00 PM</p>
+                    <p><span className="font-medium text-foreground">Saturday:</span> 9:00 AM - 5:00 PM</p>
                     <p><span className="font-medium text-foreground">Sunday:</span> Closed</p>
                   </div>
                 </div>

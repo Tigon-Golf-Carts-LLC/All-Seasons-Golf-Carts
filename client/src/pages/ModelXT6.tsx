@@ -27,6 +27,21 @@ import xt6Blue from "@assets/EVOLUTION_D-MAX_XT6_BLUE_1768251535644.png";
 import xt6Gray from "@assets/EVOLUTION_D-MAX_XT6_GRAY_1768251535644.png";
 import xt6SkyBlue from "@assets/EVOLUTION_D-MAX_XT6_SKY_BLUE_1768251535644.png";
 
+import featureTouchscreen from "@assets/10.1-INCH_MULTI-FUNCTIONAL_TOUCHSCREEN_XT6_1768315259915.jpg";
+import featureSpeakers from "@assets/Multicolor_LED_Lighted_Speakers_XT6_1768315259915.jpg";
+import feature4WD from "@assets/ON-DEMAND_4-WHEEL_DRIVE_XT6_1768315259914.jpg";
+import featureSteering from "@assets/Electric_Power_Steering_XT6_1768315259914.jpg";
+import featureCharging from "@assets/Dual_Wireless_Charging_Pad_XT6_1768315259914.jpg";
+import featureRefrigerator from "@assets/BUILT-IN_DASH_REFRIGERATOR_XT6_1768315259914.jpg";
+import featureBasket from "@assets/Foldable_REAR_STORAGE_BASKET_XT6_1768315259913.jpg";
+import featureCooler from "@assets/Sliding_Tray_with_Portable_Cooler_XT6_1768315259913.jpg";
+import featureTray from "@assets/Extended_Tray_with_Bag_Holder_Extension_XT6_1768315259913.jpg";
+import featureSeats from "@assets/TOP-NOTCH_LUXURY_SEATS_XT6_1768315259912.jpg";
+import featureComfort from "@assets/All-in-One_Passenger_Comfort_XT6_1768315259912.jpg";
+import featureLED from "@assets/LED_LIGHTING_XT6_1768315259912.jpg";
+import featureRunningBoard from "@assets/running_board_XT6_1768315259911.jpg";
+import featureWheels from "@assets/16x8.5_Aluminum_Wheel_24x10R16_Quiet_All-Terrain_Tires_XT6T_1768315259911.jpg";
+
 const colorImages: Record<string, string> = {
   white: xt6White,
   black: xt6Black,
@@ -79,6 +94,79 @@ export default function ModelXT6() {
     "Windshield (Wipers Optional)",
     "License Plate Bracket & Light",
     "Required Safety Reflectors",
+  ];
+
+  const premiumFeatures = [
+    {
+      image: featureTouchscreen,
+      title: "10.1-Inch Multi-Functional Touchscreen",
+      description: "Elevate your adventures with the 10.1-inch touchscreen, Apple CarPlay and Android Auto compatible, offering seamless access to navigation, music, and calls, keeping you connected and entertained on every drive."
+    },
+    {
+      image: featureSpeakers,
+      title: "Multicolor LED Lighted Speakers",
+      description: "The rear top soundbar features integrated speakers with LED multicolor lighting, delivering high-quality sound and a vibrant, customizable lighting effect for an enhanced driving experience."
+    },
+    {
+      image: feature4WD,
+      title: "On-Demand 4-Wheel Drive",
+      description: "Elevate your driving experience with the Evolution D-Max's on-demand 4-wheel drive system. Featuring dual independent electric motors and controllers, this system seamlessly switches between 2-wheel and 4-wheel drive, offering multiple modes to suit your preferences."
+    },
+    {
+      image: featureSteering,
+      title: "Electric Power Steering",
+      description: "D-Max's Electric Power Steering (EPS) gives you comfort, control and feel-of-the-road. It eliminates the need for a power steering pump, hoses, hydraulic fluids, and a drive belt, making it energy efficient and environmentally compatible."
+    },
+    {
+      image: featureCharging,
+      title: "Dual Wireless Charging Pad",
+      description: "Power Up on the Go - Keep your devices powered up effortlessly with the dual wireless charging pad on the dash, designed to charge two cell phones simultaneously, ensuring you stay connected without the clutter of cables."
+    },
+    {
+      image: featureRefrigerator,
+      title: "Built-In Dash Refrigerator",
+      description: "Refreshments at Your Fingertips - Keep your refreshments cool and within reach with the built-in dash refrigerator, adding a touch of convenience and luxury to every journey."
+    },
+    {
+      image: featureBasket,
+      title: "Foldable Rear Storage Basket",
+      description: "The perfect solution for on-the-go adventure, the basket maximizes space when needed and folds away discreetly when not in use. The integrated storage caddy ensures your items stay secure and organized."
+    },
+    {
+      image: featureCooler,
+      title: "Sliding Tray with Portable Cooler",
+      description: "Maximize space for extra golf bags and customize the storage to match your needs. Experience the ultimate in convenience and flexibility on every journey!"
+    },
+    {
+      image: featureTray,
+      title: "Extended Tray with Bag Holder Extension",
+      description: "Transform the rear of your golf car with the fully extended retractable tray, equipped with an optional golf bag holder extension to securely carry up to four golf bags. Perfect for group outings."
+    },
+    {
+      image: featureSeats,
+      title: "Top-Notch Luxury Seats",
+      description: "Experience unmatched sporty comfort with luxurious seats, expertly crafted from premium fine leather and detailed with exquisite stitching. Equipped with three-point seatbelts for a perfect blend of elegance and safety."
+    },
+    {
+      image: featureComfort,
+      title: "All-in-One Passenger Comfort",
+      description: "Enhance rear-seat functionality with the thoughtfully designed seat back cover assembly, featuring an integrated handrail, convenient cupholder, concealed hook, storage pocket, and USB charging ports."
+    },
+    {
+      image: featureLED,
+      title: "LED Lighting",
+      description: "Illuminate Your Journey with D-Max's advanced LED lighting system! Featuring a luminous logo, powerful LED headlights, and sleek taillights, each element is meticulously designed to enhance your ride with unmatched style."
+    },
+    {
+      image: featureRunningBoard,
+      title: "Illuminated Running Board",
+      description: "D-MAX XT6 features an illuminous running board, enhancing both functionality and aesthetic appeal. This feature facilitates easier entry and exit while adding a distinctive, glowing touch to the vehicle's profile."
+    },
+    {
+      image: featureWheels,
+      title: "16x8.5 Aluminum Wheels with All-Terrain Tires",
+      description: "D-Max XT6 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-terrain tires, delivering enhanced performance and superior traction on diverse surfaces for a smooth, controlled ride."
+    },
   ];
 
   return (
@@ -302,6 +390,42 @@ export default function ModelXT6() {
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Premium Features</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Discover the innovative technology and luxury amenities that make the D-MAX XT6 
+              the ultimate 6-passenger golf cart experience.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {premiumFeatures.map((feature, index) => (
+              <div 
+                key={index} 
+                className="bg-card rounded-xl overflow-hidden shadow-sm border border-border"
+                data-testid={`feature-card-${index}`}
+              >
+                <div className="aspect-[16/9] overflow-hidden">
+                  <img
+                    src={feature.image}
+                    alt={feature.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

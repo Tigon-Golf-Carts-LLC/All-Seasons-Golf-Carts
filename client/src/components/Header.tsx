@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Sun, Moon, Phone } from "lucide-react";
-import logoImage from "@assets/allterraingolfcarts.com_1768251737476.png";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -65,19 +64,9 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" data-testid="link-home-logo">
-            <div className="flex items-center gap-2 cursor-pointer">
-              <img 
-                src={logoImage} 
-                alt="ALL Terrain Golf Carts Logo" 
-                className="w-12 h-12 lg:w-14 lg:h-14 object-contain"
-              />
-              <div className="hidden sm:block">
-                <h1 className="font-bold text-lg lg:text-xl tracking-tight">
-                  ALL Terrain
-                </h1>
-                <p className="text-xs text-muted-foreground -mt-1">Golf Carts</p>
-              </div>
-            </div>
+            <span className="font-bold text-lg lg:text-xl tracking-tight cursor-pointer hover:text-primary transition-colors">
+              All Terrain Golf Carts
+            </span>
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">

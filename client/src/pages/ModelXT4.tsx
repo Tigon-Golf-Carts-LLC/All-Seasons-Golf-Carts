@@ -194,9 +194,9 @@ export default function ModelXT4() {
       <div className="min-h-screen pt-20">
         <section className="py-8 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
-            <div className="sticky top-24">
-              <div className="aspect-[4/3] bg-gradient-to-br from-muted to-muted/50 rounded-2xl p-4 lg:p-8 relative overflow-hidden">
+          <div className="lg:grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+            <div className="fixed lg:sticky top-16 lg:top-24 left-0 right-0 lg:left-auto lg:right-auto z-40 bg-background px-4 lg:px-0 pb-2 lg:pb-0 shadow-md lg:shadow-none">
+              <div className="aspect-[16/9] lg:aspect-[4/3] bg-gradient-to-br from-muted to-muted/50 rounded-xl lg:rounded-2xl p-2 lg:p-8 relative overflow-hidden max-h-[35vh] lg:max-h-none">
                 <img
                   src={colorImages[selectedColor]}
                   alt={`EVolution D-MAX XT4 4X4 Golf Cart in ${selectedColor}`}
@@ -204,8 +204,8 @@ export default function ModelXT4() {
                   data-testid="img-xt4-main"
                 />
               </div>
-              <div className="mt-6">
-                <p className="text-sm text-muted-foreground text-center mb-3">Select Color</p>
+              <div className="mt-2 lg:mt-6">
+                <p className="text-xs lg:text-sm text-muted-foreground text-center mb-2 lg:mb-3">Select Color</p>
                 <ColorSwatches
                   model="xt4"
                   selectedColor={selectedColor}
@@ -214,7 +214,7 @@ export default function ModelXT4() {
               </div>
             </div>
 
-            <div>
+            <div className="mt-[calc(35vh+100px)] lg:mt-0">
               <Badge variant="secondary" className="mb-4">4-Passenger 4X4</Badge>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">
                 EVolution D-MAX XT4

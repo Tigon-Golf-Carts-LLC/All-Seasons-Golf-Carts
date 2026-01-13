@@ -97,7 +97,7 @@ export default function Home() {
           <div className="text-center mb-12 lg:mb-16">
             <Badge variant="outline" className="mb-4">Our Lineup</Badge>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-              Choose Your All Season 
+              All Season Golf Cart Models
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Two powerful all season models designed for different needs. Both equipped with 

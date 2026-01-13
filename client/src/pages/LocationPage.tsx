@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 import xt4Image from "@assets/EVOLUTION_D-MAX_XT4_RED_1768250430375.png";
 import xt6Image from "@assets/EVOLUTION_D-MAX_XT6_RED_1768250430374.png";
-import mountainBg from "@assets/stock_images/mountain_landscape_s_e3842dcf.jpg";
+import allSeasonsBg from "@assets/ALL_SEASONS_GOLF_CARTS_1768325026733.png";
 import { getLocationBySlug, LocationData } from "@/data/locations";
 
 function LocationSchema({ location }: { location: LocationData }) {
@@ -213,7 +213,7 @@ export default function LocationPage() {
         <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${mountainBg})` }}
+            style={{ backgroundImage: `url(${allSeasonsBg})` }}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/80 to-background" />
           

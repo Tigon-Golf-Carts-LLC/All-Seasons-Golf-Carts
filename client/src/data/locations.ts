@@ -31,7 +31,7 @@ export const locations: LocationData[] = [
     coordinates: { lat: 61.370716, lng: -152.404419 },
     majorCities: ["Anchorage", "Fairbanks", "Juneau", "Sitka"],
     faqs: [
-      { question: "Can 4X4 golf carts handle Alaska's terrain?", answer: "Absolutely. The EVolution D-MAX 4X4 with dual motors and all-terrain tires excels on rugged Alaskan landscapes, gravel roads, and uneven terrain common throughout the state." },
+      { question: "Can 4X4 golf carts handle Alaska's terrain?", answer: "Absolutely. The EVolution D-MAX 4X4 with dual motors and all-season tires excels on rugged Alaskan landscapes, gravel roads, and uneven terrain common throughout the state in any season." },
       { question: "Are electric golf carts suitable for Alaska's climate?", answer: "Yes, lithium batteries perform well in cold weather. The D-MAX features a heated cab option and robust construction designed for challenging environments." },
       { question: "Do you ship golf carts to Alaska?", answer: "Yes, we arrange shipping to Alaska including Anchorage, Fairbanks, and other accessible locations. Contact us for shipping quotes and timelines." },
     ],
@@ -45,7 +45,7 @@ export const locations: LocationData[] = [
     majorCities: ["Phoenix", "Tucson", "Scottsdale", "Mesa"],
     faqs: [
       { question: "Are golf carts popular in Arizona communities?", answer: "Extremely popular. Arizona's retirement communities, golf resorts, and planned developments in Scottsdale, Sun City, and Mesa frequently use golf carts for daily transportation." },
-      { question: "Can the D-MAX handle Arizona's desert terrain?", answer: "Yes, the 4X4 system with all-terrain tires handles desert sand, rocky trails, and unpaved roads throughout Arizona's diverse landscapes." },
+      { question: "Can the D-MAX handle Arizona's desert terrain?", answer: "Yes, the 4X4 system with all-season tires handles desert sand, rocky trails, and unpaved roads throughout Arizona's diverse landscapes year-round." },
       { question: "Do you deliver to Arizona?", answer: "Yes, we deliver throughout Arizona including Phoenix, Scottsdale, Tucson, and surrounding areas. Contact us for delivery scheduling." },
     ],
   },
@@ -161,7 +161,7 @@ export const locations: LocationData[] = [
     coordinates: { lat: 44.240459, lng: -114.478828 },
     majorCities: ["Boise", "Meridian", "Nampa", "Idaho Falls"],
     faqs: [
-      { question: "Are 4X4 golf carts good for Idaho ranches?", answer: "Yes, the D-MAX 4X4 is ideal for Idaho's ranches, hunting properties, and rural estates with its dual-motor system and all-terrain capability." },
+      { question: "Are 4X4 golf carts good for Idaho ranches?", answer: "Yes, the D-MAX 4X4 is ideal for Idaho's ranches, hunting properties, and rural estates with its dual-motor system and all-season capability." },
       { question: "Can golf carts handle Idaho winters?", answer: "The D-MAX's electric system performs well in cold weather, and optional enclosures provide protection during Idaho's winter months." },
       { question: "Do you deliver to Idaho?", answer: "Yes, we deliver throughout Idaho including Boise, Idaho Falls, and surrounding areas. Contact us for delivery options." },
     ],
@@ -252,7 +252,7 @@ export const locations: LocationData[] = [
     coordinates: { lat: 45.253783, lng: -69.445469 },
     majorCities: ["Portland", "Lewiston", "Bangor", "Auburn"],
     faqs: [
-      { question: "Can 4X4 golf carts handle Maine's rugged terrain?", answer: "Yes, the D-MAX 4X4 excels on Maine's coastal properties, wooded estates, and rugged terrain with its dual-motor all-terrain capability." },
+      { question: "Can 4X4 golf carts handle Maine's rugged terrain?", answer: "Yes, the D-MAX 4X4 excels on Maine's coastal properties, wooded estates, and rugged terrain with its dual-motor all-season capability through every season." },
       { question: "Are golf carts used in Maine communities?", answer: "Popular in coastal communities, island properties, campgrounds, and resort areas throughout Maine for quiet, eco-friendly transportation." },
       { question: "Do you deliver to Maine?", answer: "Yes, we deliver throughout Maine including Portland, coastal communities, and all areas. Contact us for scheduling." },
     ],
@@ -370,7 +370,7 @@ export const locations: LocationData[] = [
     majorCities: ["Las Vegas", "Henderson", "Reno", "North Las Vegas"],
     faqs: [
       { question: "Are golf carts popular in Las Vegas communities?", answer: "Very popular in master-planned communities, golf resorts, and retirement villages throughout the Las Vegas valley and Reno area." },
-      { question: "Can 4X4 golf carts handle Nevada's desert terrain?", answer: "Yes, the D-MAX 4X4 with all-terrain tires handles desert sand, gravel, and rocky terrain common throughout Nevada." },
+      { question: "Can 4X4 golf carts handle Nevada's desert terrain?", answer: "Yes, the D-MAX 4X4 with all-season tires handles desert sand, gravel, and rocky terrain common throughout Nevada year-round." },
       { question: "Do you deliver to Nevada?", answer: "Yes, we deliver throughout Nevada including Las Vegas, Henderson, Reno, and all areas. Contact us for scheduling." },
     ],
   },

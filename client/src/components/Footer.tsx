@@ -9,16 +9,16 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">AT</span>
+                <span className="text-primary-foreground font-bold text-lg">AS</span>
               </div>
               <div>
-                <h3 className="font-bold text-lg">ALL Terrain</h3>
+                <h3 className="font-bold text-lg">ALL Seasons</h3>
                 <p className="text-xs text-muted-foreground -mt-1">Golf Carts</p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Premium 4X4 electric golf carts designed for those who demand more. 
-              Conquer any terrain with style and power.
+              Premium 4X4 electric golf carts designed for year-round performance. 
+              Conquer every season with style and power.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <a
@@ -127,8 +127,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@allterraingolfcarts.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
-                  info@allterraingolfcarts.com
+                <a href="mailto:info@allseasonsgolfcarts.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
+                  info@allseasonsgolfcarts.com
                 </a>
               </li>
             </ul>
@@ -138,7 +138,7 @@ export function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} ALL Terrain Golf Carts. All rights reserved.
+              &copy; {new Date().getFullYear()} ALL Seasons Golf Carts. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="link-privacy">

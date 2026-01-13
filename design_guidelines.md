@@ -1,4 +1,4 @@
-# ALL Terrain Golf Carts - Design Guidelines
+# ALL Seasons Golf Carts - Design Guidelines
 
 ## Design Approach
 **Reference-Based Approach**: Drawing inspiration from premium automotive websites (Tesla, Rivian) and high-end e-commerce product configurators. This showcases the vehicles as premium products with sophisticated presentation and interactive product exploration.
@@ -24,9 +24,9 @@
 ## Page Structure
 
 ### Homepage
-1. **Hero Section** (full viewport): Large hero image of flagship model (XT6) with overlay headline "Conquer Any Terrain" + primary CTA. Blurred background for text/button overlay.
+1. **Hero Section** (full viewport): Large hero image of flagship model (XT6) with overlay headline "All Seasons Golf Carts" + primary CTA emphasizing year-round performance through Winter, Spring, Summer, and Fall. Blurred background for text/button overlay.
 2. **Model Showcase**: Two-column grid (desktop) introducing both models with teaser images and key specs
-3. **4X4 Capabilities**: Visual section with terrain imagery demonstrating off-road prowess, bullet points of capabilities
+3. **4X4 Capabilities**: Visual section demonstrating all-season performance, bullet points of year-round capabilities
 4. **Features Highlights**: 3-column grid showcasing premium features (touchscreen, sound system, street-legal capability)
 5. **Social Proof**: Customer testimonials or use-case scenarios
 6. **Final CTA**: Strong call-to-action for browsing models or contacting dealer
@@ -87,8 +87,9 @@
 ## SEO-Optimized Content Structure
 - Prominent H1 tags with model names on individual pages
 - Structured spec tables with semantic HTML
-- Rich descriptive text emphasizing "4X4," "all-terrain," "off-road capability"
+- Rich descriptive text emphasizing "4X4," "4WD," "all-season," "year-round capability"
 - Alt text for all vehicle images describing model and color
+- Seasonal messaging: Built for Winter, Spring, Summer, and Fall
 
 ## Images Required
 
@@ -118,4 +119,4 @@
 - Subtle scroll reveals for spec sections (fade-in)
 - Minimal decorative animations - focus on functional interactions
 
-This design creates a premium, conversion-focused experience that showcases these vehicles as sophisticated products while making technical specifications easily digestible and highlighting their unique 4X4 all-terrain capabilities.
+This design creates a premium, conversion-focused experience that showcases these vehicles as sophisticated products while making technical specifications easily digestible and highlighting their unique 4X4 all-season capabilities for year-round performance.

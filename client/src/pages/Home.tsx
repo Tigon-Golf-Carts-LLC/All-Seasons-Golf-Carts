@@ -40,13 +40,13 @@ export default function Home() {
                 Premium 4X4 Electric Golf Carts
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight leading-tight mb-6">
-                All Terrain
+                All Seasons
                 <br />
                 <span className="text-gradient">Golf Carts</span>
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8">
-                Experience the power of dual-motor 4X4 capability combined with luxury comfort. 
-                The EVolution D-MAX XT series redefines what a golf cart can do.
+                Built for Winter, Spring, Summer, and Fall. Experience year-round 4X4 capability combined with luxury comfort. 
+                The EVolution D-MAX XT series performs in every season.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link href="/evolution-d-max-xt4">
@@ -101,7 +101,7 @@ export default function Home() {
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Two powerful models designed for different needs. Both equipped with 
-              our legendary 4X4 all-terrain capability.
+              our legendary 4X4 all-season capability.
             </p>
           </div>
 
@@ -194,19 +194,19 @@ export default function Home() {
               <Badge variant="outline" className="mb-4">4X4 Capability</Badge>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
                 Built for{" "}
-                <span className="text-gradient">Off-Road Excellence</span>
+                <span className="text-gradient">Year-Round Excellence</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
                 The EVolution D-MAX series features an on-demand 4-wheel drive system 
                 with dual 6.3kW AC motors, delivering unmatched power and traction 
-                across any terrain.
+                through every season.
               </p>
               
               <div className="space-y-4">
                 {[
                   "Dual 6.3kW AC motors with electromagnetic brake",
                   "On-demand 4X4 drive system for maximum traction",
-                  "24×10R16 quiet all-terrain tires",
+                  "24×10R16 quiet all-season tires",
                   "Electric power steering for precise control",
                   "Suspension tuned for street and off-road comfort",
                   "400A AC controller for instant power delivery"
@@ -296,8 +296,8 @@ export default function Home() {
             />
             <FeatureCard
               icon={Mountain}
-              title="All-Terrain Tires"
-              description={'16" aluminum wheels with quiet all-terrain tires handle any surface with confidence.'}
+              title="All-Season Tires"
+              description={'16" aluminum wheels with quiet all-season tires handle any surface with confidence year-round.'}
             />
           </div>
         </div>

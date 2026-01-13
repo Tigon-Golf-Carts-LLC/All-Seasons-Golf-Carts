@@ -53,7 +53,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
     "25A Onboard Charger",
     "Four-Wheel Hydraulic Disc Brakes",
     "16\" x 8.5\" Aluminum Wheels",
-    "24x10R16 All-Terrain Tires",
+    "24x10R16 All-Season Tires",
   ];
 
   const lsvEquipment = [
@@ -82,7 +82,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
   const vehicleSchema = {
     "@context": "https://schema.org",
     "@type": "Vehicle",
-    "@id": `https://allterraingolfcarts.com${url}#vehicle`,
+    "@id": `https://allseasonsgolfcarts.com${url}#vehicle`,
     "name": vehicleName,
     "description": vehicleDescription,
     "brand": {
@@ -137,15 +137,15 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
       "unitCode": "INH"
     },
     "color": colors.map(c => c.name),
-    "image": colors.map(c => `https://allterraingolfcarts.com/images/${model}-${c.name.toLowerCase().replace(' ', '-')}.png`),
-    "url": `https://allterraingolfcarts.com${url}`,
+    "image": colors.map(c => `https://allseasonsgolfcarts.com/images/${model}-${c.name.toLowerCase().replace(' ', '-')}.png`),
+    "url": `https://allseasonsgolfcarts.com${url}`,
     "category": [
       "Electric Golf Cart",
       "4X4 Golf Cart",
       "Street Legal Golf Cart",
       "LSV Golf Cart",
       "Low Speed Vehicle",
-      "All-Terrain Golf Cart",
+      "All-Season Golf Cart",
       `${seating}-Passenger Golf Cart`
     ],
     "additionalProperty": [
@@ -192,7 +192,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
       {
         "@type": "PropertyValue",
         "name": "Tires",
-        "value": "24x10R16 All-Terrain"
+        "value": "24x10R16 All-Season"
       },
       {
         "@type": "PropertyValue",
@@ -225,7 +225,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "@id": `https://allterraingolfcarts.com${url}#product`,
+    "@id": `https://allseasonsgolfcarts.com${url}#product`,
     "name": vehicleName,
     "description": vehicleDescription,
     "sku": isXT4 ? "EVOL-DMAX-XT4-2024" : "EVOL-DMAX-XT6-2024",
@@ -235,11 +235,11 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
       "name": "EVolution Electric Vehicles"
     },
     "category": "Electric Golf Carts",
-    "image": colors.map(c => `https://allterraingolfcarts.com/images/${model}-${c.name.toLowerCase().replace(' ', '-')}.png`),
-    "url": `https://allterraingolfcarts.com${url}`,
+    "image": colors.map(c => `https://allseasonsgolfcarts.com/images/${model}-${c.name.toLowerCase().replace(' ', '-')}.png`),
+    "url": `https://allseasonsgolfcarts.com${url}`,
     "offers": {
       "@type": "Offer",
-      "url": `https://allterraingolfcarts.com${url}`,
+      "url": `https://allseasonsgolfcarts.com${url}`,
       "priceCurrency": "USD",
       "price": price,
       "priceValidUntil": "2025-12-31",
@@ -247,10 +247,10 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "AutoDealer",
-        "@id": "https://allterraingolfcarts.com/#dealer",
-        "name": "ALL Terrain Golf Carts",
+        "@id": "https://allseasonsgolfcarts.com/#dealer",
+        "name": "ALL Seasons Golf Carts",
         "telephone": "+1-844-884-6744",
-        "url": "https://allterraingolfcarts.com"
+        "url": "https://allseasonsgolfcarts.com"
       },
       "shippingDetails": {
         "@type": "OfferShippingDetails",
@@ -284,7 +284,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
           "@type": "Person",
           "name": "Golf Cart Enthusiast"
         },
-        "reviewBody": `The ${isXT4 ? "XT4" : "XT6"} 4X4 system handles any terrain with ease. The touchscreen and sound system are amazing!`
+        "reviewBody": `The ${isXT4 ? "XT4" : "XT6"} 4X4 system handles any season with ease. The touchscreen and sound system are amazing!`
       },
       {
         "@type": "Review",
@@ -305,7 +305,7 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
       "name": `${vehicleName} - ${color.name}`,
       "color": color.name,
       "sku": `EVOL-DMAX-${model.toUpperCase()}-${color.name.toUpperCase().replace(' ', '')}`,
-      "image": `https://allterraingolfcarts.com/images/${model}-${color.name.toLowerCase().replace(' ', '-')}.png`,
+      "image": `https://allseasonsgolfcarts.com/images/${model}-${color.name.toLowerCase().replace(' ', '-')}.png`,
       "offers": {
         "@type": "Offer",
         "priceCurrency": "USD",
@@ -319,10 +319,10 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
   const businessSchema = {
     "@context": "https://schema.org",
     "@type": "AutoDealer",
-    "@id": "https://allterraingolfcarts.com/#dealer",
-    "name": "ALL Terrain Golf Carts",
-    "description": "Premium EVolution D-MAX 4X4 electric golf cart dealer specializing in street-legal LSV vehicles",
-    "url": "https://allterraingolfcarts.com",
+    "@id": "https://allseasonsgolfcarts.com/#dealer",
+    "name": "ALL Seasons Golf Carts",
+    "description": "Premium EVolution D-MAX 4X4 electric golf cart dealer specializing in street-legal LSV vehicles for year-round performance",
+    "url": "https://allseasonsgolfcarts.com",
     "telephone": "+1-844-884-6744",
     "priceRange": "$15,000 - $20,000",
     "currenciesAccepted": "USD",
@@ -416,13 +416,13 @@ export function VehicleSchema({ model }: VehicleSchemaProps) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://allterraingolfcarts.com"
+        "item": "https://allseasonsgolfcarts.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": isXT4 ? "D-MAX XT4" : "D-MAX XT6",
-        "item": `https://allterraingolfcarts.com${url}`
+        "item": `https://allseasonsgolfcarts.com${url}`
       }
     ]
   };

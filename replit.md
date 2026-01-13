@@ -1,7 +1,7 @@
-# ALL Terrain Golf Carts Website
+# ALL Seasons Golf Carts Website
 
 ## Overview
-A premium static website for ALL Terrain Golf Carts (allterraingolfcarts.com) showcasing EVolution D-MAX XT4 and XT6 4X4 electric golf carts. The site is designed for SEO optimization to rank for 4X4 golf cart searches and features interactive color swatches, detailed specifications, and a contact form.
+A premium static website for ALL Seasons Golf Carts (allseasonsgolfcarts.com) showcasing EVolution D-MAX XT4 and XT6 4X4 electric golf carts. The site is designed for SEO optimization to rank for 4X4 golf cart searches and emphasizes year-round all-season capability (Winter, Spring, Summer, Fall). Features interactive color swatches, detailed specifications, and a contact form.
 
 ## Technology Stack
 - **Frontend**: React with TypeScript, Vite, TailwindCSS, Wouter (routing)

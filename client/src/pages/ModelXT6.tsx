@@ -67,7 +67,7 @@ export default function ModelXT6() {
   const dimensionSpecs = [
     { label: "Seating Capacity", value: "6 Passengers", icon: "users" as const },
     { label: "Body Style", value: "Extended Length for 6 Seats", icon: "ruler" as const },
-    { label: "Wheels", value: '16" All-Terrain or Street Ready', icon: "cog" as const },
+    { label: "Wheels", value: '16" All-Season or Street Ready', icon: "cog" as const },
     { label: "Brakes", value: "Hydraulic Disc Brake System", icon: "cog" as const },
     { label: "Steering", value: "Electric Power Steering (EPS)", icon: "navigation" as const },
     { label: "Battery Options", value: "110Ah Standard / 160Ah Upgrade", icon: "battery" as const },
@@ -165,8 +165,8 @@ export default function ModelXT6() {
     },
     {
       image: featureWheels,
-      title: "16x8.5 Aluminum Wheels with All-Terrain Tires",
-      description: "D-Max XT6 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-terrain tires, delivering enhanced performance and superior traction on diverse surfaces for a smooth, controlled ride."
+      title: "16x8.5 Aluminum Wheels with All-Season Tires",
+      description: "D-Max XT6 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-season tires, delivering enhanced performance and superior traction on diverse surfaces year-round for a smooth, controlled ride."
     },
   ];
 

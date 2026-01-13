@@ -249,11 +249,11 @@ export default function Contact() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:info@allterraingolfcarts.com" 
+                        href="mailto:info@allseasonsgolfcarts.com" 
                         className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                         data-testid="link-contact-email"
                       >
-                        info@allterraingolfcarts.com
+                        info@allseasonsgolfcarts.com
                       </a>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ export default function Contact() {
       <section className="py-12 bg-card">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Why Choose ALL Terrain Golf Carts?</h2>
+            <h2 className="text-2xl font-bold mb-4">Why Choose ALL Seasons Golf Carts?</h2>
             <div className="grid sm:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">

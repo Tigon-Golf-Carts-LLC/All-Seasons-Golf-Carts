@@ -65,7 +65,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" data-testid="link-home-logo">
             <span className="font-bold text-lg lg:text-xl tracking-tight cursor-pointer hover:text-primary transition-colors">
-              All Terrain Golf Carts
+              All Seasons Golf Carts
             </span>
           </Link>
 

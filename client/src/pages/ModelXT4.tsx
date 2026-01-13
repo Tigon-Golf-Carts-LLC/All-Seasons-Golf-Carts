@@ -183,8 +183,8 @@ export default function ModelXT4() {
     },
     {
       image: featureWheels,
-      title: "16x8.5 Aluminum Wheels with All-Terrain Tires",
-      description: "D-Max XT4 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-terrain tires, delivering enhanced performance and superior traction on diverse surfaces for a smooth, controlled ride."
+      title: "16x8.5 Aluminum Wheels with All-Season Tires",
+      description: "D-Max XT4 is equipped with 16x8.5-inch aluminum wheels and 24x10R16 all-season tires, delivering enhanced performance and superior traction on diverse surfaces year-round for a smooth, controlled ride."
     },
   ];
 
@@ -220,7 +220,7 @@ export default function ModelXT4() {
                 EVolution D-MAX XT4
               </h1>
               <p className="text-xl text-muted-foreground mb-6">
-                The Ultimate All-Terrain Golf Cart
+                The Ultimate All-Season Golf Cart
               </p>
               
               <div className="flex items-baseline gap-2 mb-6">

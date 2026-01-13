@@ -29,13 +29,13 @@ function LocationSchema({ location }: { location: LocationData }) {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://allterraingolfcarts.com/${location.slug}#business`,
-    "name": `All Terrain Golf Carts - ${location.name}`,
-    "description": `Premium EVolution D-MAX 4X4 electric golf carts available in ${location.name}. Dual-motor all-terrain capability, street-legal LSV options, and luxury features.`,
-    "url": `https://allterraingolfcarts.com/${location.slug}`,
+    "@id": `https://allseasonsgolfcarts.com/${location.slug}#business`,
+    "name": `All Seasons Golf Carts - ${location.name}`,
+    "description": `Premium EVolution D-MAX 4X4 electric golf carts available in ${location.name}. Dual-motor all-season capability, street-legal LSV options, and luxury features.`,
+    "url": `https://allseasonsgolfcarts.com/${location.slug}`,
     "telephone": "+1-844-884-6744",
     "priceRange": "$15,000 - $20,000",
-    "image": "https://allterraingolfcarts.com/og-image.png",
+    "image": "https://allseasonsgolfcarts.com/og-image.png",
     "address": {
       "@type": "PostalAddress",
       "addressRegion": location.abbreviation,
@@ -65,7 +65,7 @@ function LocationSchema({ location }: { location: LocationData }) {
       }
     ],
     "sameAs": [
-      "https://allterraingolfcarts.com"
+      "https://allseasonsgolfcarts.com"
     ]
   };
 
@@ -90,13 +90,13 @@ function LocationSchema({ location }: { location: LocationData }) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://allterraingolfcarts.com"
+        "item": "https://allseasonsgolfcarts.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": `${location.name}`,
-        "item": `https://allterraingolfcarts.com/${location.slug}`
+        "item": `https://allseasonsgolfcarts.com/${location.slug}`
       }
     ]
   };
@@ -105,7 +105,7 @@ function LocationSchema({ location }: { location: LocationData }) {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": `4X4 Golf Carts in ${location.name}`,
-    "description": `Premium EVolution D-MAX 4X4 electric golf carts available for ${location.name} residents. Features dual-motor all-wheel drive, luxury amenities, and street-legal LSV options.`,
+    "description": `Premium EVolution D-MAX 4X4 electric golf carts available for ${location.name} residents. Features dual-motor 4WD all-season performance, luxury amenities, and street-legal LSV options.`,
     "brand": {
       "@type": "Brand",
       "name": "EVolution Electric Vehicles"
@@ -154,7 +154,7 @@ export default function LocationPage() {
 
   useEffect(() => {
     if (location) {
-      document.title = `All Terrain Golf Cart in ${location.name} | EVolution D-MAX 4X4`;
+      document.title = `All Seasons Golf Cart in ${location.name} | EVolution D-MAX 4X4`;
       
       let metaDescription = document.querySelector('meta[name="description"]');
       if (!metaDescription) {
@@ -163,7 +163,7 @@ export default function LocationPage() {
         document.head.appendChild(metaDescription);
       }
       metaDescription.setAttribute('content', 
-        `Premium 4X4 electric golf carts available in ${location.name}. EVolution D-MAX XT4 and XT6 with dual-motor all-terrain capability, street-legal LSV options. Call (844) 884-6744.`
+        `Premium 4X4 electric golf carts available in ${location.name}. EVolution D-MAX XT4 and XT6 with dual-motor all-season capability, street-legal LSV options. Call (844) 884-6744.`
       );
 
       let ogTitle = document.querySelector('meta[property="og:title"]');
@@ -172,7 +172,7 @@ export default function LocationPage() {
         ogTitle.setAttribute('property', 'og:title');
         document.head.appendChild(ogTitle);
       }
-      ogTitle.setAttribute('content', `All Terrain Golf Cart in ${location.name}`);
+      ogTitle.setAttribute('content', `All Seasons Golf Cart in ${location.name}`);
 
       let ogDescription = document.querySelector('meta[property="og:description"]');
       if (!ogDescription) {
@@ -186,7 +186,7 @@ export default function LocationPage() {
     }
 
     return () => {
-      document.title = 'All Terrain Golf Carts | Premium 4X4 Electric Golf Carts';
+      document.title = 'All Seasons Golf Carts | Premium 4X4 Electric Golf Carts';
     };
   }, [location]);
 
@@ -224,7 +224,7 @@ export default function LocationPage() {
                   Serving {location.name}
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
-                  All Terrain
+                  All Seasons
                   <br />
                   <span className="text-primary">Golf Carts In {location.name}</span>
                 </h1>
@@ -284,8 +284,8 @@ export default function LocationPage() {
                 Choose Your 4X4 Golf Cart
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Two powerful models designed for {location.name}'s unique terrain. Both equipped with 
-                our legendary 4X4 all-terrain capability.
+                Two powerful models designed for {location.name}'s unique seasons. Both equipped with 
+                our legendary 4X4 all-season capability.
               </p>
             </div>
 
@@ -376,18 +376,18 @@ export default function LocationPage() {
             <div className="text-center mb-12">
               <Badge variant="outline" className="mb-4">Why 4X4?</Badge>
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                Built for {location.name}'s Terrain
+                Built for {location.name}'s Seasons
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                The EVolution D-MAX 4X4 system provides unmatched capability for any environment in {location.name}.
+                The EVolution D-MAX 4X4 system provides unmatched capability for every season in {location.name}.
               </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <FeatureCard
                 icon={Mountain}
-                title="All-Terrain Capability"
-                description={`Navigate ${location.name}'s diverse landscapes with confidence. Dual motors provide power to all four wheels when you need it.`}
+                title="All-Season Capability"
+                description={`Navigate ${location.name}'s diverse conditions year-round with confidence. Dual motors provide power to all four wheels when you need it.`}
               />
               <FeatureCard
                 icon={Zap}
@@ -500,7 +500,7 @@ export default function LocationPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                Why {location.name} Chooses All Terrain Golf Carts
+                Why {location.name} Chooses All Seasons Golf Carts
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Join hundreds of satisfied customers across {location.name} who trust the EVolution D-MAX 4X4.

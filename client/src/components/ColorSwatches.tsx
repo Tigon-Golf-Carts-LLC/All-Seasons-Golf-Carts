@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
 
 interface ColorOption {
   name: string;
@@ -70,6 +72,12 @@ export function ColorSwatches({ model, selectedColor, onColorChange }: ColorSwat
           ? colorOptions.find((c) => c.value === hoveredColor)?.name
           : colorOptions.find((c) => c.value === selectedColor)?.name}
       </p>
+      <a href="tel:1-844-884-6744" className="w-full mt-2">
+        <Button variant="outline" className="w-full gap-2" data-testid="button-talk-real-person">
+          <Phone className="w-4 h-4" />
+          Talk To A Real Person
+        </Button>
+      </a>
     </div>
   );
 }

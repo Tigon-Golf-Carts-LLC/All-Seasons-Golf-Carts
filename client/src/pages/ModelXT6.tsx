@@ -5,6 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ColorSwatches } from "@/components/ColorSwatches";
 import { SpecTable } from "@/components/SpecTable";
+import { VehicleSchema } from "@/components/VehicleSchema";
 import {
   ArrowRight,
   CheckCircle2,
@@ -170,8 +171,10 @@ export default function ModelXT6() {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
-      <section className="py-8 lg:py-16">
+    <>
+      <VehicleSchema model="xt6" />
+      <div className="min-h-screen pt-20">
+        <section className="py-8 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="sticky top-24">
@@ -446,5 +449,6 @@ export default function ModelXT6() {
         </div>
       </section>
     </div>
+    </>
   );
 }

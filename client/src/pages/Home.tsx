@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FeatureCard } from "@/components/FeatureCard";
+import { locations } from "@/data/locations";
 import { 
   ArrowRight, 
   Mountain, 
@@ -15,7 +16,8 @@ import {
   Battery,
   Gauge,
   CheckCircle2,
-  ChevronRight
+  ChevronRight,
+  MapPin
 } from "lucide-react";
 import xt4Image from "@assets/EVOLUTION_D-MAX_XT4_RED_1768250430375.png";
 import xt6Image from "@assets/EVOLUTION_D-MAX_XT6_RED_1768250430374.png";
@@ -330,6 +332,58 @@ export default function Home() {
                   </Button>
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 lg:py-24 bg-card">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <Badge variant="outline" className="mb-4">
+              <MapPin className="w-4 h-4 mr-1" />
+              Nationwide Service
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              4X4 Golf Carts Available Across the USA
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              We deliver EVolution D-MAX 4X4 golf carts to all 50 states and U.S. territories. 
+              Click your location to learn more.
+            </p>
+          </div>
+
+          <div className="mb-8">
+            <h3 className="text-xl font-semibold mb-4">States</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
+              {locations.filter(loc => loc.type === "state").map((loc) => (
+                <Link key={loc.slug} href={`/${loc.slug}`}>
+                  <Button 
+                    variant="outline" 
+                    className="w-full justify-start text-sm h-auto py-2"
+                    data-testid={`link-location-${loc.slug}`}
+                  >
+                    {loc.name}
+                  </Button>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-4">U.S. Territories</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
+              {locations.filter(loc => loc.type === "territory").map((loc) => (
+                <Link key={loc.slug} href={`/${loc.slug}`}>
+                  <Button 
+                    variant="outline" 
+                    className="w-full justify-start text-sm h-auto py-2"
+                    data-testid={`link-location-${loc.slug}`}
+                  >
+                    {loc.name}
+                  </Button>
+                </Link>
+              ))}
             </div>
           </div>
         </div>

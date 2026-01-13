@@ -3,6 +3,69 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema } from "@shared/schema";
 import { z } from "zod";
+import nodemailer from "nodemailer";
+
+const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST || "smtp.gmail.com",
+  port: parseInt(process.env.SMTP_PORT || "587"),
+  secure: process.env.SMTP_SECURE === "true",
+  auth: {
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
+  },
+});
+
+async function sendContactEmail(data: {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string | null;
+  model: string | null;
+  message: string;
+}) {
+  const modelLabels: Record<string, string> = {
+    xt4: "EVolution D-MAX XT4 (4-Seat)",
+    xt6: "EVolution D-MAX XT6 (6-Seat)",
+    both: "Both Models",
+    general: "General Inquiry",
+  };
+
+  const interestedIn = data.model ? modelLabels[data.model] || data.model : "Not specified";
+
+  const emailHtml = `
+    <h2>New Contact Form Submission</h2>
+    <p><strong>Name:</strong> ${data.firstName} ${data.lastName}</p>
+    <p><strong>Email:</strong> ${data.email}</p>
+    <p><strong>Phone:</strong> ${data.phone || "Not provided"}</p>
+    <p><strong>Interested In:</strong> ${interestedIn}</p>
+    <hr />
+    <p><strong>Message:</strong></p>
+    <p>${data.message.replace(/\n/g, "<br>")}</p>
+  `;
+
+  const emailText = `
+New Contact Form Submission
+
+Name: ${data.firstName} ${data.lastName}
+Email: ${data.email}
+Phone: ${data.phone || "Not provided"}
+Interested In: ${interestedIn}
+
+Message:
+${data.message}
+  `;
+
+  const recipients = ["sales@tigongolfcarts.com", "tigongolfcarts@gmail.com"];
+
+  await transporter.sendMail({
+    from: process.env.SMTP_FROM || process.env.SMTP_USER,
+    to: recipients.join(", "),
+    replyTo: data.email,
+    subject: `New Contact Form: ${data.firstName} ${data.lastName} - ${interestedIn}`,
+    text: emailText,
+    html: emailHtml,
+  });
+}
 
 export async function registerRoutes(
   httpServer: Server,
@@ -21,6 +84,14 @@ export async function registerRoutes(
 
       const validatedData = insertContactSchema.parse(contactData);
       const submission = await storage.createContactSubmission(validatedData);
+      
+      if (process.env.SMTP_USER && process.env.SMTP_PASS) {
+        try {
+          await sendContactEmail(validatedData);
+        } catch (emailError) {
+          console.error("Failed to send email notification:", emailError);
+        }
+      }
       
       res.status(201).json({ 
         success: true, 

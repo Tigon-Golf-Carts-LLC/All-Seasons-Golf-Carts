@@ -18,6 +18,7 @@ import {
   Navigation,
   Shield,
   Volume2,
+  Download,
 } from "lucide-react";
 import xt6Red from "@assets/EVOLUTION_D-MAX_XT6_RED_1768250430374.png";
 import xt6White from "@assets/EVOLUTION_D-MAX_XT6_WHITE_1768251535645.png";
@@ -149,6 +150,12 @@ export default function ModelXT6() {
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
+                <a href="/xt6-spec-sheet.pdf" download>
+                  <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2" data-testid="button-xt6-download">
+                    <Download className="w-5 h-5" />
+                    Download Spec Sheet
+                  </Button>
+                </a>
                 <Link href="/xt4">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto" data-testid="button-xt6-compare">
                     Compare to XT4

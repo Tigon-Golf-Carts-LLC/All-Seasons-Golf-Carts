@@ -22,6 +22,7 @@ import {
   Snowflake,
   Wifi,
   Car,
+  Download,
 } from "lucide-react";
 import xt4Red from "@assets/EVOLUTION_D-MAX_XT4_RED_1768250430375.png";
 import xt4White from "@assets/EVOLUTION_D-MAX_XT4_WHITE_1768251453734.png";
@@ -166,6 +167,12 @@ export default function ModelXT4() {
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
+                <a href="/xt4-spec-sheet.pdf" download>
+                  <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2" data-testid="button-xt4-download">
+                    <Download className="w-5 h-5" />
+                    Download Spec Sheet
+                  </Button>
+                </a>
                 <Link href="/xt6">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto" data-testid="button-xt4-compare">
                     Compare to XT6

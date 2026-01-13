@@ -43,8 +43,8 @@ export function Header() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/xt4", label: "D-MAX XT4" },
-    { href: "/xt6", label: "D-MAX XT6" },
+    { href: "/evolution-d-max-xt4", label: "D-MAX XT4" },
+    { href: "/evolution-d-max-xt6", label: "D-MAX XT6" },
     { href: "/contact", label: "Contact" },
   ];
 

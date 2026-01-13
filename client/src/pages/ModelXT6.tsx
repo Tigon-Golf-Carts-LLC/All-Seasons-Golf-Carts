@@ -156,7 +156,7 @@ export default function ModelXT6() {
                     Download Spec Sheet
                   </Button>
                 </a>
-                <Link href="/xt4">
+                <Link href="/evolution-d-max-xt4">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto" data-testid="button-xt6-compare">
                     Compare to XT4
                   </Button>
@@ -296,7 +296,7 @@ export default function ModelXT6() {
           </div>
           
           <div className="text-center mt-8">
-            <Link href="/xt4">
+            <Link href="/evolution-d-max-xt4">
               <Button variant="outline" className="gap-2" data-testid="button-xt6-goto-xt4">
                 View XT4 Details
                 <ArrowRight className="w-4 h-4" />

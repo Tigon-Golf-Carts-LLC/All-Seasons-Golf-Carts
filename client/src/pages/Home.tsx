@@ -47,7 +47,7 @@ export default function Home() {
                 The EVolution D-MAX XT series redefines what a golf cart can do.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link href="/xt4">
+                <Link href="/evolution-d-max-xt4">
                   <Button size="lg" className="w-full sm:w-auto gap-2" data-testid="button-explore-models">
                     Explore Models
                     <ArrowRight className="w-5 h-5" />
@@ -133,7 +133,7 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">Starting at</p>
                     <p className="text-2xl font-bold">$15,595</p>
                   </div>
-                  <Link href="/xt4">
+                  <Link href="/evolution-d-max-xt4">
                     <Button className="gap-2" data-testid="button-view-xt4">
                       View Details
                       <ChevronRight className="w-4 h-4" />
@@ -172,7 +172,7 @@ export default function Home() {
                     <p className="text-sm text-muted-foreground">Starting at</p>
                     <p className="text-2xl font-bold">$17,595</p>
                   </div>
-                  <Link href="/xt6">
+                  <Link href="/evolution-d-max-xt6">
                     <Button className="gap-2" data-testid="button-view-xt6">
                       View Details
                       <ChevronRight className="w-4 h-4" />
@@ -217,7 +217,7 @@ export default function Home() {
               </div>
 
               <div className="mt-8">
-                <Link href="/xt4">
+                <Link href="/evolution-d-max-xt4">
                   <Button size="lg" className="gap-2" data-testid="button-learn-4x4">
                     Learn More About 4X4
                     <ArrowRight className="w-5 h-5" />
@@ -324,7 +324,7 @@ export default function Home() {
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
-                <Link href="/xt4">
+                <Link href="/evolution-d-max-xt4">
                   <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" data-testid="button-cta-compare">
                     Compare Models
                   </Button>

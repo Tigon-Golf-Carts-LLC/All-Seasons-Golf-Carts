@@ -49,14 +49,14 @@ export function Footer() {
             <h4 className="font-semibold text-sm uppercase tracking-wider mb-4">Models</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/xt4">
+                <Link href="/evolution-d-max-xt4">
                   <span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer" data-testid="link-footer-xt4">
                     EVolution D-MAX XT4
                   </span>
                 </Link>
               </li>
               <li>
-                <Link href="/xt6">
+                <Link href="/evolution-d-max-xt6">
                   <span className="text-sm text-muted-foreground hover:text-foreground transition-colors cursor-pointer" data-testid="link-footer-xt6">
                     EVolution D-MAX XT6
                   </span>

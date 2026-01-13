@@ -15,8 +15,8 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/xt4" component={ModelXT4} />
-      <Route path="/xt6" component={ModelXT6} />
+      <Route path="/evolution-d-max-xt4" component={ModelXT4} />
+      <Route path="/evolution-d-max-xt6" component={ModelXT6} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>

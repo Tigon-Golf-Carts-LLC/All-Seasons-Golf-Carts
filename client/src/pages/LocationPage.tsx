@@ -224,9 +224,9 @@ export default function LocationPage() {
                   Serving {location.name}
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
-                  All Terrain Golf Carts
+                  All Terrain
                   <br />
-                  <span className="text-gradient">in {location.name}</span>
+                  <span className="text-primary">Golf Carts In {location.name}</span>
                 </h1>
                 <p className="text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-8">
                   Experience the power of dual-motor 4X4 capability in {location.name}. 

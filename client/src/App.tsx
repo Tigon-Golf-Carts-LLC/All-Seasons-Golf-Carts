@@ -11,6 +11,8 @@ import ModelXT6 from "@/pages/ModelXT6";
 import Contact from "@/pages/Contact";
 import Financing from "@/pages/Financing";
 import LocationPage from "@/pages/LocationPage";
+import Blog from "@/pages/Blog";
+import BlogPost from "@/pages/BlogPost";
 import NotFound from "@/pages/not-found";
 import { locations } from "@/data/locations";
 
@@ -22,6 +24,8 @@ function Router() {
       <Route path="/evolution-d-max-xt6" component={ModelXT6} />
       <Route path="/financing" component={Financing} />
       <Route path="/contact" component={Contact} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/:slug" component={BlogPost} />
       {locations.map((loc) => (
         <Route key={loc.slug} path={`/${loc.slug}`} component={LocationPage} />
       ))}

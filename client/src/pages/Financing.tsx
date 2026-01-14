@@ -151,7 +151,7 @@ export default function Financing() {
               <span className="text-primary">Financing</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Get behind the wheel of your EVolution D-MAX 4X4 golf cart today. 
+              Get behind the wheel of your All Season 4X4 golf cart today. 
               We offer multiple financing options including 0% financing programs to fit every budget.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

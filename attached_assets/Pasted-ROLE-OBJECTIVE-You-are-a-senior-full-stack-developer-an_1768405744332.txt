@@ -1,0 +1,129 @@
+ROLE & OBJECTIVE
+You are a senior full-stack developer and advanced SEO/GEO strategist working on an existing live website. Your responsibility is to design, implement, and populate a fully integrated blog system that aligns with modern technical SEO, semantic search, and geographic relevance.
+
+BLOG ARCHITECTURE REQUIREMENTS
+
+Blog Index Page
+Create a dedicated Blog index page that lists all published blog posts and displays:
+
+Blog title
+
+Short, SEO-friendly excerpt
+
+Publish date
+
+Featured hero image thumbnail
+
+Add a visible text link labeled “Blog” to the global footer navigation that routes to the Blog index page.
+
+Individual Blog Pages
+Each blog post must be fully SEO-optimized and include:
+
+Unique SEO title tag
+
+Meta description written for CTR optimization
+
+Clean, keyword-focused URL slug
+
+Proper on-page hierarchy using Title, H1, H2, H3, H4, H5, and H6 tags
+
+Semantic SEO and GEO-targeted language throughout the content
+
+Contextual internal linking to vehicle pages
+
+Each blog must have one designated hero image, which is also used as:
+
+Primary featured image
+
+Open Graph image
+
+Meta image
+
+Social sharing image for the blog URL
+
+CONTENT CREATION SCOPE
+
+Create 8 complete blog posts with 8 unique blog titles targeting the primary keyword:
+
+“All Seasons Golf Carts”
+
+Primary Topic Focus:
+All-Season 4WD Electric Golf Carts designed for year-round driving, comfort, and performance.
+
+Each blog post must be fully written, publication-ready, and naturally incorporate the following vehicle specifications and features where contextually appropriate:
+
+On-demand 4-wheel-drive system
+
+Dual 6.3kW AC motors with electromagnetic braking
+
+400A AC controller for instant torque delivery
+
+24×10R16 quiet all-season tires
+
+16" aluminum wheels
+
+Electric power steering for precise handling
+
+Suspension tuned for street and off-road comfort
+
+10.1" touchscreen display
+
+Full infotainment system with Apple CarPlay and Android Auto
+
+24-speaker premium surround sound system
+
+Built-in dash refrigerator plus 74-quart portable cooler
+
+Dual wireless phone charging pads
+
+LSV-compliant street-legal equipment (DOT tires, lighting, mirrors, safety components) for operation in 35-mph zones
+
+HERO IMAGE & MEDIA REQUIREMENTS (PER BLOG)
+
+For each blog post:
+
+Select one image to represent the article
+
+Use this image consistently as the hero, OG, meta, and social image
+
+Generate an AI-ready hero image prompt aligned exactly with the blog title
+
+Provide SEO-optimized alt text that is:
+
+Keyword-rich
+
+Descriptive
+
+Location-aware
+
+Relevant to “All Seasons Golf Carts”
+
+INTERNAL LINKING (MANDATORY)
+
+Each blog post must include natural, contextual internal links to:
+
+https://allseasonsgolfcarts.com/evolution-d-max-xt4
+
+https://allseasonsgolfcarts.com/evolution-d-max-xt6
+
+Links should support topical authority and be embedded within relevant body sections.
+
+DELIVERABLE EXPECTATION
+
+Produce eight fully completed, SEO-ready blog posts, each including:
+
+Blog title
+
+SEO metadata
+
+URL slug
+
+Full heading structure
+
+Body content
+
+Internal link silos
+
+Hero image prompt and alt text
+
+All content must be ready for immediate deployment on the live website.

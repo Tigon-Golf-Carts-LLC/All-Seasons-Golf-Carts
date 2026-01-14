@@ -1,0 +1,189 @@
+# ============================================================
+# ALL Seasons Golf Carts - Geographic SEO Data
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# GEOGRAPHIC SEO INFORMATION
+
+# ============================================================
+# PRIMARY SERVICE REGION
+# ============================================================
+
+Region: Mid-Atlantic United States
+Coverage Type: Multi-State Dealer Network
+
+# ============================================================
+# STATE COVERAGE
+# ============================================================
+
+## Delaware (Primary Market)
+State: Delaware
+Abbreviation: DE
+Service Level: Full Coverage
+Counties Served: All 3 counties
+- New Castle County
+- Kent County
+- Sussex County
+
+Major Cities:
+- Wilmington, DE (39.7391° N, 75.5398° W)
+- Dover, DE (39.1582° N, 75.5244° W)
+- Newark, DE (39.6837° N, 75.7497° W)
+- Middletown, DE (39.4496° N, 75.7163° W)
+- Smyrna, DE (39.2998° N, 75.6046° W)
+- Milford, DE (38.9126° N, 75.4277° W)
+- Seaford, DE (38.6412° N, 75.6110° W)
+- Georgetown, DE (38.6901° N, 75.3857° W)
+
+Beach Communities:
+- Rehoboth Beach, DE (38.7210° N, 75.0760° W)
+- Bethany Beach, DE (38.5393° N, 75.0552° W)
+- Dewey Beach, DE (38.6893° N, 75.0774° W)
+- Lewes, DE (38.7746° N, 75.1391° W)
+- Fenwick Island, DE (38.4615° N, 75.0519° W)
+
+## Maryland
+State: Maryland
+Abbreviation: MD
+Service Level: Full Coverage
+
+Major Cities:
+- Baltimore, MD (39.2904° N, 76.6122° W)
+- Annapolis, MD (38.9784° N, 76.4922° W)
+- Columbia, MD (39.2037° N, 76.8610° W)
+- Frederick, MD (39.4143° N, 77.4105° W)
+- Rockville, MD (39.0840° N, 77.1528° W)
+
+Eastern Shore:
+- Easton, MD (38.7743° N, 76.0763° W)
+- Cambridge, MD (38.5632° N, 76.0788° W)
+- Salisbury, MD (38.3607° N, 75.5994° W)
+- Ocean City, MD (38.3365° N, 75.0849° W)
+- St. Michaels, MD (38.7851° N, 76.2244° W)
+
+## Pennsylvania
+State: Pennsylvania
+Abbreviation: PA
+Service Level: Full Coverage (Southeast Region)
+
+Major Cities:
+- Philadelphia, PA (39.9526° N, 75.1652° W)
+- King of Prussia, PA (40.0890° N, 75.3890° W)
+- Chester, PA (39.8496° N, 75.3557° W)
+- West Chester, PA (39.9607° N, 75.6055° W)
+- Media, PA (39.9168° N, 75.3877° W)
+- Kennett Square, PA (39.8468° N, 75.7116° W)
+
+## New Jersey
+State: New Jersey
+Abbreviation: NJ
+Service Level: Full Coverage (Southern Region)
+
+Major Cities:
+- Cherry Hill, NJ (39.9349° N, 75.0307° W)
+- Camden, NJ (39.9259° N, 75.1196° W)
+- Vineland, NJ (39.4864° N, 75.0257° W)
+- Atlantic City, NJ (39.3643° N, 74.4229° W)
+- Cape May, NJ (38.9351° N, 74.9060° W)
+- Toms River, NJ (39.9537° N, 74.1979° W)
+
+Shore Communities:
+- Long Beach Island, NJ
+- Wildwood, NJ
+- Ocean City, NJ
+- Avalon, NJ
+- Stone Harbor, NJ
+
+## Virginia
+State: Virginia
+Abbreviation: VA
+Service Level: Full Coverage (Eastern Region)
+
+Major Cities:
+- Virginia Beach, VA (36.8529° N, 75.9780° W)
+- Norfolk, VA (36.8508° N, 76.2859° W)
+- Chesapeake, VA (36.7682° N, 76.2875° W)
+- Richmond, VA (37.5407° N, 77.4360° W)
+- Alexandria, VA (38.8048° N, 77.0469° W)
+
+# ============================================================
+# TARGET MARKET TYPES
+# ============================================================
+
+## Golf Communities
+- Private golf clubs
+- Public golf courses
+- Golf course neighborhoods
+- Retirement golf communities
+
+## Beach & Coastal
+- Oceanfront communities
+- Beach resort towns
+- Coastal retirement areas
+- Vacation home communities
+
+## Lake & Resort
+- Lakefront properties
+- Resort communities
+- Vacation rental areas
+- Marina communities
+
+## Agricultural
+- Farms and ranches
+- Vineyards and wineries
+- Agricultural operations
+- Rural estates
+
+## Institutional
+- University campuses
+- Corporate campuses
+- Industrial facilities
+- Hospital complexes
+
+# ============================================================
+# REGIONAL KEYWORDS
+# ============================================================
+
+## Delaware Keywords
+- golf cart Delaware
+- 4x4 golf cart DE
+- electric golf cart Wilmington
+- beach golf cart Rehoboth
+- street legal golf cart Dover
+
+## Maryland Keywords
+- golf cart Maryland
+- 4x4 golf cart MD
+- golf cart Baltimore
+- beach golf cart Ocean City MD
+- Eastern Shore golf cart
+
+## Pennsylvania Keywords
+- golf cart Pennsylvania
+- golf cart Philadelphia area
+- electric golf cart Chester County
+- golf cart PA
+
+## New Jersey Keywords
+- golf cart New Jersey
+- golf cart South Jersey
+- shore golf cart NJ
+- golf cart Atlantic City area
+
+## Virginia Keywords
+- golf cart Virginia
+- golf cart Virginia Beach
+- golf cart Hampton Roads
+- golf cart Northern Virginia
+
+# ============================================================
+# SERVICE RADIUS
+# ============================================================
+
+Delivery Range: 150+ miles from primary locations
+Service Coverage: All listed states
+Installation: On-site available
+Support: Regional service network
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

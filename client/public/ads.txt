@@ -1,0 +1,50 @@
+# ============================================================
+# ALL Seasons Golf Carts - Authorized Digital Sellers
+# https://allseasonsgolfcarts.com/ads.txt
+# ============================================================
+
+# This file declares authorized digital advertising partners
+# for allseasonsgolfcarts.com
+
+# Format: <domain>, <publisher ID>, <relationship>, <certification ID>
+
+# ============================================================
+# GOOGLE ADSENSE / GOOGLE AD MANAGER
+# ============================================================
+
+# google.com, pub-XXXXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# ============================================================
+# AUTHORIZED RESELLERS
+# ============================================================
+
+# Add authorized advertising partners here as needed
+# Example entries (uncomment and replace with actual IDs):
+
+# google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+# advertising.com, 12345, RESELLER
+# appnexus.com, 12345, RESELLER
+# rubiconproject.com, 12345, RESELLER
+# openx.com, 12345, RESELLER
+# pubmatic.com, 12345, RESELLER
+# indexexchange.com, 12345, RESELLER
+
+# ============================================================
+# CONTACT INFORMATION
+# ============================================================
+
+# For advertising inquiries:
+# Website: https://allseasonsgolfcarts.com/contact
+# Email: advertising@allseasonsgolfcarts.com
+
+# ============================================================
+# DECLARATION
+# ============================================================
+
+# This ads.txt file is maintained by ALL Seasons Golf Carts
+# to ensure transparency in digital advertising relationships.
+
+# Only the advertising partners listed above are authorized
+# to sell or resell advertising inventory for this domain.
+
+# Last Updated: 2026-01-14

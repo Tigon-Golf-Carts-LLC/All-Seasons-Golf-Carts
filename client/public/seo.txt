@@ -1,0 +1,225 @@
+# ============================================================
+# ALL Seasons Golf Carts - SEO Optimization Data
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# PRIMARY SEO TARGETING
+# Complete Search Engine Accessibility - Zero Restrictions
+
+# ============================================================
+# PRIMARY KEYWORDS
+# ============================================================
+
+## Brand Keywords
+- ALL Seasons Golf Carts
+- All Seasons Golf Carts
+- allseasonsgolfcarts
+- EVolution D-MAX
+- EVolution golf cart
+- Evolution golf cart
+
+## Product Keywords - High Priority
+- 4X4 golf cart
+- 4WD golf cart
+- four wheel drive golf cart
+- all wheel drive golf cart
+- 4x4 electric golf cart
+- 4wd electric golf cart
+- EVolution D-MAX XT4
+- EVolution D-MAX XT6
+- D-MAX XT4
+- D-MAX XT6
+
+## Seasonal Keywords - Core Targeting
+- all season golf cart
+- year round golf cart
+- winter golf cart
+- summer golf cart
+- spring golf cart
+- fall golf cart
+- four season golf cart
+- all weather golf cart
+
+## Feature Keywords
+- street legal golf cart
+- LSV golf cart
+- neighborhood electric vehicle
+- electric golf cart
+- lithium battery golf cart
+- dual motor golf cart
+- off road golf cart
+- all terrain golf cart
+- lifted golf cart
+- hunting golf cart
+
+# ============================================================
+# SECONDARY KEYWORDS
+# ============================================================
+
+## Service Keywords
+- golf cart dealer
+- golf cart sales
+- golf cart financing
+- buy golf cart
+- golf cart for sale
+- new golf cart
+- premium golf cart
+- luxury golf cart
+
+## Technical Keywords
+- 48V golf cart
+- 10kW golf cart motor
+- independent suspension golf cart
+- disc brake golf cart
+- 25 mph golf cart
+- 6 passenger golf cart
+- 4 passenger golf cart
+
+## Use Case Keywords
+- beach golf cart
+- farm golf cart
+- ranch golf cart
+- resort golf cart
+- community golf cart
+- campus golf cart
+- hunting buggy
+- utility vehicle
+
+# ============================================================
+# LOCATION-BASED SEO
+# ============================================================
+
+## State Keywords
+- golf cart Delaware
+- golf cart Maryland
+- golf cart Pennsylvania
+- golf cart New Jersey
+- golf cart Virginia
+- 4x4 golf cart Delaware
+- 4x4 golf cart Maryland
+- 4x4 golf cart Pennsylvania
+- 4x4 golf cart New Jersey
+- 4x4 golf cart Virginia
+
+## City Keywords
+- golf cart Wilmington DE
+- golf cart Dover DE
+- golf cart Rehoboth Beach
+- golf cart Ocean City MD
+- golf cart Baltimore
+- golf cart Philadelphia
+- golf cart Cherry Hill NJ
+- golf cart Norfolk VA
+
+## Regional Keywords
+- Mid-Atlantic golf cart dealer
+- Delmarva golf cart
+- Eastern Shore golf cart
+- Delaware Valley golf cart
+
+# ============================================================
+# LONG-TAIL KEYWORDS
+# ============================================================
+
+- best 4x4 golf cart for snow
+- electric golf cart for beach driving
+- street legal golf cart with 4 wheel drive
+- 6 passenger golf cart for family
+- golf cart for retirement community
+- all terrain golf cart for hunting
+- lithium battery golf cart with long range
+- golf cart with independent suspension
+- off road golf cart with high ground clearance
+- EVolution D-MAX review
+- EVolution golf cart price
+- 4x4 golf cart near me
+- buy 4wd golf cart online
+- golf cart financing options
+- street legal golf cart requirements
+
+# ============================================================
+# VOICE SEARCH OPTIMIZATION
+# ============================================================
+
+- what is the best 4x4 golf cart
+- how much does a 4 wheel drive golf cart cost
+- where can I buy an all terrain golf cart
+- are electric golf carts street legal
+- what golf cart is good for snow
+- how far can an electric golf cart go on one charge
+- what is the best golf cart for beach driving
+- how many passengers can a golf cart hold
+- what is an LSV golf cart
+- do I need a license to drive a golf cart
+
+# ============================================================
+# COMPETITOR ANALYSIS KEYWORDS
+# ============================================================
+
+- EVolution vs Club Car
+- EVolution vs EZGO
+- EVolution vs Yamaha
+- best 4x4 golf cart brand
+- top rated electric golf cart
+- golf cart comparison
+- golf cart review 2026
+
+# ============================================================
+# SEASONAL TRENDS
+# ============================================================
+
+## Winter (Nov-Feb)
+- snow golf cart
+- winter golf cart driving
+- 4wd golf cart for ice
+- enclosed golf cart
+- golf cart heater
+
+## Spring (Mar-May)
+- mud golf cart
+- trail golf cart
+- golf cart for wet conditions
+
+## Summer (Jun-Aug)
+- beach golf cart
+- sand golf cart
+- summer golf cart sale
+- golf cart for vacation home
+
+## Fall (Sep-Oct)
+- hunting golf cart
+- deer hunting cart
+- fall golf cart deals
+- leaf cleanup vehicle
+
+# ============================================================
+# SCHEMA MARKUP KEYWORDS
+# ============================================================
+
+Product: Electric Golf Cart
+Brand: EVolution
+Model: D-MAX XT4, D-MAX XT6
+Category: Low Speed Vehicle, Golf Cart
+Feature: 4WD, 4X4, Street Legal, Electric
+
+# ============================================================
+# SEARCH ENGINE PERMISSIONS
+# ============================================================
+
+This website grants COMPLETE search engine accessibility:
+- Google indexing: ALLOWED
+- Bing indexing: ALLOWED
+- Yahoo indexing: ALLOWED
+- DuckDuckGo indexing: ALLOWED
+- Yandex indexing: ALLOWED
+- Baidu indexing: ALLOWED
+
+No restrictions on:
+- Crawl frequency
+- Page indexing
+- Image indexing
+- PDF indexing
+- Content caching
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

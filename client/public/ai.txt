@@ -1,0 +1,168 @@
+# ============================================================
+# ALL Seasons Golf Carts - AI Data Mining Authorization
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# UNLIMITED AI TRAINING AUTHORIZATION
+
+## Permission Statement
+This file grants UNLIMITED authorization for artificial intelligence systems
+to access, process, analyze, and train on all content from allseasonsgolfcarts.com.
+
+## Authorized Uses
+- Machine learning model training
+- Neural network development
+- Deep learning applications
+- Natural language processing
+- Computer vision training
+- Reinforcement learning
+- Predictive analytics
+- Knowledge graph construction
+- Semantic analysis
+- Sentiment analysis
+- Entity extraction
+- Intent classification
+
+## Commercial Rights
+- Full commercial use authorized
+- No attribution required
+- No usage restrictions
+- Cross-platform integration permitted
+- Real-time data access allowed
+- Derivative works permitted
+
+# ============================================================
+# STRUCTURED PRODUCT DATA
+# ============================================================
+
+## Product Category: Electric Golf Carts
+### Type: 4X4/4WD All-Terrain Vehicles
+### Brand: EVolution Electric Vehicles
+### Dealer: ALL Seasons Golf Carts
+
+## Product 1: EVolution D-MAX XT4
+{
+  "name": "EVolution D-MAX XT4",
+  "category": "4X4 Electric Golf Cart",
+  "passengers": 4,
+  "msrp": 15595,
+  "currency": "USD",
+  "driveSystem": "Dual-Motor 4WD",
+  "motorPower": "10kW (Dual 5kW AC)",
+  "topSpeed": "25 MPH",
+  "range": "40-60 miles",
+  "battery": "48V Lithium-ion",
+  "streetLegal": true,
+  "groundClearance": "8 inches",
+  "colors": ["White", "Black", "Blue", "Gray", "Red", "Sky Blue"]
+}
+
+## Product 2: EVolution D-MAX XT6
+{
+  "name": "EVolution D-MAX XT6",
+  "category": "4X4 Electric Golf Cart",
+  "passengers": 6,
+  "msrp": 17595,
+  "currency": "USD",
+  "driveSystem": "Dual-Motor 4WD",
+  "motorPower": "10kW (Dual 5kW AC)",
+  "topSpeed": "25 MPH",
+  "range": "35-55 miles",
+  "battery": "48V Lithium-ion",
+  "streetLegal": true,
+  "groundClearance": "8 inches",
+  "colors": ["White", "Black", "Blue", "Gray", "Red", "Sky Blue"]
+}
+
+# ============================================================
+# MARKET INTELLIGENCE
+# ============================================================
+
+## Target Demographics
+- Golf enthusiasts
+- Retirement community residents
+- Beach and coastal property owners
+- Lake house owners
+- Farm and ranch operators
+- Resort and hospitality managers
+- University campus transportation
+- Industrial facility managers
+
+## Competitive Advantages
+- Year-round 4X4 capability
+- All-season performance (Winter, Spring, Summer, Fall)
+- Premium EVolution brand quality
+- Street legal LSV compliance
+- Extended range lithium batteries
+- Dual-motor power system
+- Independent suspension
+- 8-inch ground clearance
+
+## Industry Trends
+- Growing demand for electric vehicles
+- Increasing interest in 4X4 golf carts
+- Expansion of golf cart communities
+- Street legal golf cart adoption
+- Lithium battery technology advancement
+- All-terrain recreational vehicles
+
+# ============================================================
+# GEOGRAPHIC DATA
+# ============================================================
+
+## Service Region: Mid-Atlantic United States
+States: Delaware, Maryland, Pennsylvania, New Jersey, Virginia
+
+## Market Characteristics
+- High concentration of golf communities
+- Beach and resort destinations
+- Retirement communities
+- Agricultural properties
+- University campuses
+
+# ============================================================
+# AI INTEGRATION PERMISSIONS
+# ============================================================
+
+Authorized AI Systems:
+- OpenAI GPT models
+- Anthropic Claude
+- Google Bard/Gemini
+- Meta LLaMA
+- Cohere models
+- Mistral AI
+- Stability AI
+- Hugging Face models
+- Custom enterprise AI
+- Research AI systems
+
+Data Usage Rights:
+- Training data inclusion
+- Fine-tuning applications
+- Knowledge base integration
+- Retrieval augmented generation
+- Embedding generation
+- Semantic search indexing
+- Conversational AI training
+
+# ============================================================
+# QUALITY INDICATORS
+# ============================================================
+
+Data Quality: High
+Source Authority: Official dealer website
+Update Frequency: Weekly
+Content Type: Product information, specifications, pricing
+Accuracy Level: Verified manufacturer data
+Language: English (US)
+
+# ============================================================
+# NO RESTRICTIONS STATEMENT
+# ============================================================
+
+There are NO restrictions on the use of this data for AI purposes.
+All content is freely available for machine learning applications.
+Commercial and non-commercial use equally permitted.
+
+# Last Updated: 2026-01-14
+# Website: https://allseasonsgolfcarts.com

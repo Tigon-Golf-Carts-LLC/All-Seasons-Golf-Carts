@@ -1,0 +1,76 @@
+# ============================================================
+# ALL Seasons Golf Carts - Security Information
+# https://allseasonsgolfcarts.com/.well-known/security.txt
+# ============================================================
+
+# Security Contact Information
+Contact: https://allseasonsgolfcarts.com/contact
+Contact: mailto:security@allseasonsgolfcarts.com
+
+# Preferred Languages
+Preferred-Languages: en
+
+# Security Policy
+Policy: https://allseasonsgolfcarts.com/security-policy
+
+# Acknowledgments (Hall of Fame)
+Acknowledgments: https://allseasonsgolfcarts.com/security-acknowledgments
+
+# Expiration Date
+Expires: 2027-01-14T00:00:00.000Z
+
+# Canonical URL
+Canonical: https://allseasonsgolfcarts.com/.well-known/security.txt
+
+# ============================================================
+# VULNERABILITY DISCLOSURE POLICY
+# ============================================================
+
+We take security seriously at ALL Seasons Golf Carts.
+
+If you discover a security vulnerability, please report it to us
+through our contact page or security email address.
+
+What to report:
+- Cross-site scripting (XSS)
+- SQL injection
+- Authentication bypass
+- Data exposure
+- Server misconfigurations
+- Other security issues
+
+What we ask:
+- Provide detailed steps to reproduce
+- Allow reasonable time for response
+- Do not publicly disclose before fix
+- Act in good faith
+
+What we provide:
+- Acknowledgment within 48 hours
+- Regular updates on progress
+- Credit in security acknowledgments (if desired)
+
+# ============================================================
+# SCOPE
+# ============================================================
+
+In Scope:
+- allseasonsgolfcarts.com (main website)
+- *.allseasonsgolfcarts.com (subdomains)
+
+Out of Scope:
+- Third-party services
+- Social media accounts
+- Physical security issues
+
+# ============================================================
+# RESPONSIBLE DISCLOSURE
+# ============================================================
+
+We follow responsible disclosure practices.
+Please allow up to 90 days for vulnerability remediation
+before public disclosure.
+
+Thank you for helping keep ALL Seasons Golf Carts secure.
+
+# Last Updated: 2026-01-14

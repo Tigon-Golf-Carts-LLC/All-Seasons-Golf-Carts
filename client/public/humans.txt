@@ -1,0 +1,90 @@
+/* TEAM */
+
+Company: ALL Seasons Golf Carts
+Website: https://allseasonsgolfcarts.com
+Industry: Electric Golf Cart Sales
+Specialty: 4X4/4WD Premium Golf Carts
+Brand Partner: EVolution Electric Vehicles
+
+Location: Mid-Atlantic United States
+Service Areas: Delaware, Maryland, Pennsylvania, New Jersey, Virginia
+
+/* SITE */
+
+Last Update: 2026-01-14
+Language: English (US)
+Standards: HTML5, CSS3, ES6+
+Doctype: HTML5
+
+Framework: React
+Build Tool: Vite
+Styling: TailwindCSS
+UI Library: shadcn/ui
+Routing: Wouter
+State Management: TanStack Query
+
+Components: shadcn/ui component library
+Icons: Lucide React
+Typography: Montserrat, Inter
+Animations: Framer Motion
+
+/* TECHNOLOGY STACK */
+
+Frontend:
+- React 18
+- TypeScript
+- Vite
+- TailwindCSS
+- Wouter (routing)
+- TanStack Query (data fetching)
+- shadcn/ui (components)
+- Framer Motion (animations)
+- React Helmet (SEO)
+
+Backend:
+- Node.js
+- Express.js
+- TypeScript
+
+Database:
+- PostgreSQL (via Drizzle ORM)
+
+Hosting:
+- Replit
+
+/* CONTACT */
+
+Website: https://allseasonsgolfcarts.com
+Contact Page: https://allseasonsgolfcarts.com/contact
+
+/* PRODUCTS */
+
+EVolution D-MAX XT4
+- 4-passenger 4X4 electric golf cart
+- Starting MSRP: $15,595
+
+EVolution D-MAX XT6
+- 6-passenger 4X4 electric golf cart
+- Starting MSRP: $17,595
+
+Both models feature:
+- Dual-motor 4WD system
+- 48V lithium-ion battery
+- Street legal (LSV compliant)
+- 25 MPH top speed
+- Independent suspension
+- Hydraulic disc brakes
+- 8" ground clearance
+
+/* THANKS */
+
+Thanks to:
+- EVolution Electric Vehicles for quality products
+- Our customers for their support
+- The open source community
+
+/* COLOPHON */
+
+Made with care in the USA
+Designed for all seasons
+Built for any terrain

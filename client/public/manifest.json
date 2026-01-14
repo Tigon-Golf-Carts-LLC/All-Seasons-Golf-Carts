@@ -1,0 +1,97 @@
+{
+  "name": "ALL Seasons Golf Carts",
+  "short_name": "All Seasons GC",
+  "description": "Premium 4X4 electric golf carts by EVolution. Year-round capability for Winter, Spring, Summer, and Fall. Dual-motor 4WD, street legal, and built for any terrain.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["automotive", "shopping", "business"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ALL Seasons Golf Carts Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "EVolution XT4",
+      "short_name": "XT4",
+      "description": "View the 4-passenger EVolution D-MAX XT4",
+      "url": "/evolution-d-max-xt4",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "EVolution XT6",
+      "short_name": "XT6",
+      "description": "View the 6-passenger EVolution D-MAX XT6",
+      "url": "/evolution-d-max-xt6",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Financing",
+      "short_name": "Finance",
+      "description": "Explore financing options",
+      "url": "/financing",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

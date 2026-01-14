@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  
+  <ShortName>ALL Seasons Golf Carts</ShortName>
+  <Description>Search ALL Seasons Golf Carts for premium 4X4 electric golf carts, EVolution D-MAX models, and more.</Description>
+  <Tags>golf cart 4x4 4wd electric evolution d-max lsv street legal</Tags>
+  <Contact>contact@allseasonsgolfcarts.com</Contact>
+  
+  <Url type="text/html" 
+       method="get" 
+       template="https://allseasonsgolfcarts.com/search?q={searchTerms}"/>
+  
+  <Url type="application/x-suggestions+json" 
+       method="get"
+       template="https://allseasonsgolfcarts.com/api/suggestions?q={searchTerms}"/>
+  
+  <Url type="application/opensearchdescription+xml"
+       rel="self"
+       template="https://allseasonsgolfcarts.com/opensearch.xml"/>
+  
+  <Image height="16" width="16" type="image/x-icon">https://allseasonsgolfcarts.com/favicon.ico</Image>
+  <Image height="64" width="64" type="image/png">https://allseasonsgolfcarts.com/android-chrome-192x192.png</Image>
+  
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <Language>en-us</Language>
+  
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  
+  <Developer>ALL Seasons Golf Carts</Developer>
+  <Attribution>Search results from ALL Seasons Golf Carts</Attribution>
+  
+  <moz:SearchForm>https://allseasonsgolfcarts.com/</moz:SearchForm>
+  <moz:UpdateUrl>https://allseasonsgolfcarts.com/opensearch.xml</moz:UpdateUrl>
+  <moz:IconUpdateUrl>https://allseasonsgolfcarts.com/favicon.ico</moz:IconUpdateUrl>
+  <moz:UpdateInterval>7</moz:UpdateInterval>
+  
+</OpenSearchDescription>

@@ -1,0 +1,190 @@
+# ============================================================
+# ALL Seasons Golf Carts - Comprehensive Crawler Permissions
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# 50+ CRAWLER TYPES - ALL PERMITTED
+
+# ============================================================
+# SEARCH ENGINE CRAWLERS (15 types)
+# ============================================================
+
+1. Googlebot - Google Search - ALLOWED
+2. Googlebot-Image - Google Images - ALLOWED
+3. Googlebot-Mobile - Google Mobile - ALLOWED
+4. Googlebot-News - Google News - ALLOWED
+5. Googlebot-Video - Google Video - ALLOWED
+6. Bingbot - Bing Search - ALLOWED
+7. BingPreview - Bing Previews - ALLOWED
+8. Slurp - Yahoo Search - ALLOWED
+9. Baiduspider - Baidu Search - ALLOWED
+10. YandexBot - Yandex Search - ALLOWED
+11. DuckDuckBot - DuckDuckGo - ALLOWED
+12. Sogou - Sogou Search - ALLOWED
+13. Exabot - Exalead Search - ALLOWED
+14. Qwantify - Qwant Search - ALLOWED
+15. Naver - Naver Search - ALLOWED
+
+# ============================================================
+# AI CRAWLERS (12 types)
+# ============================================================
+
+16. GPTBot - OpenAI - ALLOWED
+17. ChatGPT-User - ChatGPT Browsing - ALLOWED
+18. Google-Extended - Google AI - ALLOWED
+19. anthropic-ai - Anthropic - ALLOWED
+20. Claude-Web - Claude Browsing - ALLOWED
+21. CCBot - Common Crawl - ALLOWED
+22. cohere-ai - Cohere - ALLOWED
+23. PerplexityBot - Perplexity AI - ALLOWED
+24. YouBot - You.com - ALLOWED
+25. Applebot-Extended - Apple AI - ALLOWED
+26. Bytespider - ByteDance AI - ALLOWED
+27. OAI-SearchBot - OpenAI Search - ALLOWED
+
+# ============================================================
+# SOCIAL MEDIA BOTS (12 types)
+# ============================================================
+
+28. facebookexternalhit - Facebook - ALLOWED
+29. Facebot - Facebook Crawler - ALLOWED
+30. Twitterbot - Twitter/X - ALLOWED
+31. LinkedInBot - LinkedIn - ALLOWED
+32. Pinterest - Pinterest - ALLOWED
+33. Pinterestbot - Pinterest Crawler - ALLOWED
+34. InstagramBot - Instagram - ALLOWED
+35. WhatsApp - WhatsApp - ALLOWED
+36. TelegramBot - Telegram - ALLOWED
+37. Slackbot - Slack - ALLOWED
+38. Discordbot - Discord - ALLOWED
+39. redditbot - Reddit - ALLOWED
+
+# ============================================================
+# SEO TOOL CRAWLERS (10 types)
+# ============================================================
+
+40. AhrefsBot - Ahrefs - ALLOWED
+41. SemrushBot - Semrush - ALLOWED
+42. MJ12bot - Majestic - ALLOWED
+43. DotBot - Moz Open Site Explorer - ALLOWED
+44. rogerbot - Moz - ALLOWED
+45. MozBot - Moz - ALLOWED
+46. Screaming Frog SEO Spider - Screaming Frog - ALLOWED
+47. SEOkicks - SEOkicks - ALLOWED
+48. DataForSeoBot - DataForSEO - ALLOWED
+49. sistrix - Sistrix - ALLOWED
+
+# ============================================================
+# E-COMMERCE CRAWLERS (6 types)
+# ============================================================
+
+50. ShopBot - Shopping Comparison - ALLOWED
+51. PriceGrabber - Price Comparison - ALLOWED
+52. Googlebot-Shopping - Google Shopping - ALLOWED
+53. BizRate - Shopping Reviews - ALLOWED
+54. PriceRunner - Price Comparison - ALLOWED
+55. Nextag - Shopping - ALLOWED
+
+# ============================================================
+# NEWS AGGREGATORS (5 types)
+# ============================================================
+
+56. Googlebot-News - Google News - ALLOWED
+57. BingNews - Bing News - ALLOWED
+58. YahooFeedSeeker - Yahoo News - ALLOWED
+59. NewsNow - NewsNow - ALLOWED
+60. Feedfetcher-Google - Google Feeds - ALLOWED
+
+# ============================================================
+# ARCHIVE & RESEARCH (5 types)
+# ============================================================
+
+61. ia_archiver - Internet Archive - ALLOWED
+62. archive.org_bot - Wayback Machine - ALLOWED
+63. CCBot - Common Crawl - ALLOWED
+64. Diffbot - Research - ALLOWED
+65. ResearchBot - Academic - ALLOWED
+
+# ============================================================
+# MOBILE CRAWLERS (4 types)
+# ============================================================
+
+66. Googlebot-Mobile - Google Mobile - ALLOWED
+67. YahooMobileSearch - Yahoo Mobile - ALLOWED
+68. AdsBot-Google-Mobile - Google Mobile Ads - ALLOWED
+69. Baiduspider-mobile - Baidu Mobile - ALLOWED
+
+# ============================================================
+# VIDEO & IMAGE CRAWLERS (4 types)
+# ============================================================
+
+70. Googlebot-Video - Google Video - ALLOWED
+71. Googlebot-Image - Google Images - ALLOWED
+72. BingPreview - Bing Preview - ALLOWED
+73. YandexImages - Yandex Images - ALLOWED
+
+# ============================================================
+# LOCAL & BUSINESS (4 types)
+# ============================================================
+
+74. GoogleLocalBot - Google Local - ALLOWED
+75. YelpBot - Yelp - ALLOWED
+76. Applebot - Apple Maps - ALLOWED
+77. BingLocalBot - Bing Local - ALLOWED
+
+# ============================================================
+# ANALYTICS & MONITORING (4 types)
+# ============================================================
+
+78. UptimeRobot - Monitoring - ALLOWED
+79. Pingdom - Performance - ALLOWED
+80. GTmetrix - Speed Testing - ALLOWED
+81. PageSpeed - Google PageSpeed - ALLOWED
+
+# ============================================================
+# ACCESSIBILITY (3 types)
+# ============================================================
+
+82. AccessibilityBot - Accessibility Testing - ALLOWED
+83. W3C_Validator - W3C Validation - ALLOWED
+84. WAVE - Accessibility Checker - ALLOWED
+
+# ============================================================
+# VOICE ASSISTANTS (3 types)
+# ============================================================
+
+85. Alexa - Amazon Alexa - ALLOWED
+86. Applebot - Siri - ALLOWED
+87. Googlebot - Google Assistant - ALLOWED
+
+# ============================================================
+# CRAWLER PERMISSIONS SUMMARY
+# ============================================================
+
+Total Crawler Types: 87+
+Access Level: UNRESTRICTED
+Crawl Delay: NONE (0 seconds)
+Content Access: ALL public content
+Hours of Access: 24/7/365
+
+# ============================================================
+# CRAWL SPECIFICATIONS
+# ============================================================
+
+Allowed Content:
+- HTML pages: YES
+- Images: YES
+- PDFs: YES
+- Videos: YES
+- CSS/JS: YES
+- JSON-LD: YES
+- XML files: YES
+
+Crawl Frequency: Unlimited
+Rate Limiting: Disabled
+Geographic Restrictions: None
+User-Agent Filtering: None (all allowed)
+
+# Website: https://allseasonsgolfcarts.com
+# Sitemap: https://allseasonsgolfcarts.com/sitemap.xml
+# Last Updated: 2026-01-14

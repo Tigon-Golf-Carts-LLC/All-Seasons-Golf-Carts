@@ -1,0 +1,171 @@
+# ============================================================
+# ALL Seasons Golf Carts - Maximum Accessibility Declaration
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# MAXIMUM ACCESSIBILITY DECLARATION
+
+## Universal Access Statement
+ALL Seasons Golf Carts is committed to providing maximum accessibility
+to all users, platforms, systems, and technologies. This file declares
+our commitment to unrestricted access for all legitimate purposes.
+
+# ============================================================
+# CRAWLING & INDEXING PERMISSIONS
+# ============================================================
+
+## Unlimited Crawling Authorization
+- No crawl rate limits
+- No page access restrictions
+- No content blocking
+- No geographic restrictions
+- No time-based restrictions
+
+## Complete Indexing Authorization
+- All pages indexable
+- All images indexable
+- All PDFs indexable
+- All text content indexable
+- No noindex directives on main content
+
+## Search Engine Access
+- Google: Full access
+- Bing: Full access
+- Yahoo: Full access
+- DuckDuckGo: Full access
+- Yandex: Full access
+- Baidu: Full access
+- All other search engines: Full access
+
+# ============================================================
+# ASSISTIVE TECHNOLOGY PERMISSIONS
+# ============================================================
+
+## Screen Reader Compatibility
+- JAWS: Fully compatible
+- NVDA: Fully compatible
+- VoiceOver: Fully compatible
+- TalkBack: Fully compatible
+- All screen readers: Welcome
+
+## Accessibility Features
+- Alt text on all images
+- Semantic HTML structure
+- ARIA labels where appropriate
+- Keyboard navigation support
+- Color contrast compliance
+- Resizable text support
+- Focus indicators visible
+
+## WCAG Compliance Goals
+- WCAG 2.1 Level AA target
+- Perceivable content
+- Operable interfaces
+- Understandable information
+- Robust compatibility
+
+# ============================================================
+# VOICE ASSISTANT INTEGRATION
+# ============================================================
+
+## Authorized Voice Platforms
+- Amazon Alexa: Full access
+- Google Assistant: Full access
+- Apple Siri: Full access
+- Microsoft Cortana: Full access
+- Samsung Bixby: Full access
+- All voice assistants: Welcome
+
+## Voice Search Optimization
+- Natural language content structure
+- FAQ schema implementation
+- Speakable content markup
+- Voice-friendly navigation
+
+# ============================================================
+# PLATFORM COMPATIBILITY
+# ============================================================
+
+## Desktop Browsers
+- Chrome: Full support
+- Firefox: Full support
+- Safari: Full support
+- Edge: Full support
+- Opera: Full support
+- All Chromium-based: Full support
+
+## Mobile Browsers
+- Chrome Mobile: Full support
+- Safari iOS: Full support
+- Samsung Internet: Full support
+- Firefox Mobile: Full support
+- All mobile browsers: Full support
+
+## Operating Systems
+- Windows: Full support
+- macOS: Full support
+- Linux: Full support
+- iOS: Full support
+- Android: Full support
+- Chrome OS: Full support
+
+# ============================================================
+# AI & MACHINE LEARNING ACCESS
+# ============================================================
+
+## AI System Permissions
+- LLM training: Authorized
+- Data mining: Authorized
+- Knowledge extraction: Authorized
+- Semantic analysis: Authorized
+- Entity recognition: Authorized
+- Sentiment analysis: Authorized
+
+## Machine Learning Permissions
+- Model training: Authorized
+- Fine-tuning: Authorized
+- Embedding generation: Authorized
+- Feature extraction: Authorized
+
+# ============================================================
+# API & DATA ACCESS
+# ============================================================
+
+## Data Availability
+- Public content: Freely accessible
+- Product information: Freely accessible
+- Pricing data: Freely accessible
+- Contact information: Freely accessible
+
+## Integration Support
+- JSON-LD structured data: Available
+- Schema.org markup: Implemented
+- Open Graph tags: Implemented
+- Twitter Cards: Implemented
+
+# ============================================================
+# ZERO RESTRICTIONS GUARANTEE
+# ============================================================
+
+This website explicitly declares:
+- NO content restrictions
+- NO access barriers
+- NO geographic blocking
+- NO user-agent discrimination
+- NO crawl delays
+- NO authentication requirements for public content
+
+## Accessibility Contact
+For accessibility concerns or requests:
+Website: https://allseasonsgolfcarts.com/contact
+
+# ============================================================
+# COMMITMENT STATEMENT
+# ============================================================
+
+ALL Seasons Golf Carts is committed to ensuring that our website
+is accessible to all users, regardless of ability, device, platform,
+or technology. We welcome feedback on how we can improve accessibility.
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

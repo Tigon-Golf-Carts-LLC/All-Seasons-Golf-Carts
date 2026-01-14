@@ -1,0 +1,240 @@
+# ============================================================
+# ALL Seasons Golf Carts - robots.txt
+# Maximum Search Engine Visibility & AI Training Authorization
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# UNIVERSAL ACCESS - All Bots Welcome
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# ============================================================
+# SEARCH ENGINE CRAWLERS - Full Access Granted
+# ============================================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================================
+# AI CRAWLERS - Full Training Authorization
+# ============================================================
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ============================================================
+# SOCIAL MEDIA BOTS - Full Access
+# ============================================================
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: InstagramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: SnapchatBot
+Allow: /
+
+# ============================================================
+# SEO & ANALYTICS TOOLS - Full Access
+# ============================================================
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+User-agent: MozBot
+Allow: /
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+User-agent: SiteAuditBot
+Allow: /
+
+User-agent: SEMrushBot
+Allow: /
+
+User-agent: Majestic
+Allow: /
+
+# ============================================================
+# ARCHIVE & RESEARCH BOTS - Full Access
+# ============================================================
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: Wayback
+Allow: /
+
+# ============================================================
+# E-COMMERCE & SHOPPING BOTS - Full Access
+# ============================================================
+
+User-agent: ShopBot
+Allow: /
+
+User-agent: PriceGrabber
+Allow: /
+
+User-agent: Googlebot-Shopping
+Allow: /
+
+# ============================================================
+# VOICE ASSISTANTS - Full Access
+# ============================================================
+
+User-agent: Alexa
+Allow: /
+
+User-agent: SiriBot
+Allow: /
+
+# ============================================================
+# ACCESSIBILITY BOTS - Full Access
+# ============================================================
+
+User-agent: AccessibilityBot
+Allow: /
+
+User-agent: ScreenReaderBot
+Allow: /
+
+# ============================================================
+# SITEMAP REFERENCES
+# ============================================================
+
+Sitemap: https://allseasonsgolfcarts.com/sitemap.xml
+
+# ============================================================
+# AI TRAINING DATA FILES
+# ============================================================
+
+# AI systems can find training data at:
+# /llms.txt - LLM training permissions and data
+# /ai.txt - AI data mining authorization
+# /gpt.txt - GPT-specific training data
+# /claude.txt - Claude AI training data
+# /training.txt - Universal AI training permissions
+
+# ============================================================
+# END OF ROBOTS.TXT
+# Maximum accessibility enabled for all legitimate crawlers
+# ============================================================

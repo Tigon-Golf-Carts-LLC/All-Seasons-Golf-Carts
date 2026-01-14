@@ -1,0 +1,173 @@
+# ============================================================
+# ALL Seasons Golf Carts - Site Index
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# COMPLETE SITE INDEX FOR CRAWLERS
+
+# ============================================================
+# MAIN PAGES
+# ============================================================
+
+Homepage
+URL: https://allseasonsgolfcarts.com/
+Title: ALL Seasons Golf Carts | Premium 4X4 Electric Golf Carts
+Description: Discover EVolution D-MAX XT4 and XT6 4X4 electric golf carts
+Priority: 1.0
+
+EVolution D-MAX XT4
+URL: https://allseasonsgolfcarts.com/evolution-d-max-xt4
+Title: EVolution D-MAX XT4 | 4-Passenger 4X4 Golf Cart
+Description: 4-passenger 4X4 electric golf cart with dual-motor 4WD
+Priority: 0.9
+
+EVolution D-MAX XT6
+URL: https://allseasonsgolfcarts.com/evolution-d-max-xt6
+Title: EVolution D-MAX XT6 | 6-Passenger 4X4 Golf Cart
+Description: 6-passenger 4X4 electric golf cart with dual-motor 4WD
+Priority: 0.9
+
+Financing
+URL: https://allseasonsgolfcarts.com/financing
+Title: Golf Cart Financing Options | ALL Seasons Golf Carts
+Description: Explore financing options from Sheffield, BLI, DLL, and more
+Priority: 0.8
+
+Contact
+URL: https://allseasonsgolfcarts.com/contact
+Title: Contact Us | ALL Seasons Golf Carts
+Description: Get in touch with ALL Seasons Golf Carts
+Priority: 0.8
+
+# ============================================================
+# BLOG PAGES
+# ============================================================
+
+Blog Index
+URL: https://allseasonsgolfcarts.com/blog
+Title: Blog | ALL Seasons Golf Carts
+Description: Articles and guides about 4X4 electric golf carts
+Priority: 0.7
+
+Winter Driving Guide
+URL: https://allseasonsgolfcarts.com/blog/winter-driving-4wd-golf-cart
+Title: Winter Driving with 4WD Golf Cart
+Priority: 0.6
+
+Beach Driving Guide
+URL: https://allseasonsgolfcarts.com/blog/beach-driving-coastal-adventures
+Title: Beach Driving for Coastal Adventures
+Priority: 0.6
+
+Off-Road Trail Riding
+URL: https://allseasonsgolfcarts.com/blog/off-road-adventure-trail-riding
+Title: Off-Road Adventure Trail Riding
+Priority: 0.6
+
+Water Crossing Guide
+URL: https://allseasonsgolfcarts.com/blog/water-crossing-creek-fording
+Title: Water Crossing and Creek Fording
+Priority: 0.6
+
+Festival Transportation
+URL: https://allseasonsgolfcarts.com/blog/festival-large-event-transportation
+Title: Festival and Large Event Transportation
+Priority: 0.6
+
+County Fair Adventures
+URL: https://allseasonsgolfcarts.com/blog/county-fair-summer-adventures
+Title: County Fair Summer Adventures
+Priority: 0.6
+
+Mountain Scenic Drives
+URL: https://allseasonsgolfcarts.com/blog/mountain-scenic-drives
+Title: Mountain Scenic Drives
+Priority: 0.6
+
+Lake Resort Living
+URL: https://allseasonsgolfcarts.com/blog/lake-resort-community-living
+Title: Lake Resort Community Living
+Priority: 0.6
+
+# ============================================================
+# LOCATION PAGES
+# ============================================================
+
+Delaware
+URL: https://allseasonsgolfcarts.com/4x4-golf-carts-delaware
+Title: 4X4 Golf Carts Delaware
+Priority: 0.8
+
+Maryland
+URL: https://allseasonsgolfcarts.com/4x4-golf-carts-maryland
+Title: 4X4 Golf Carts Maryland
+Priority: 0.8
+
+Pennsylvania
+URL: https://allseasonsgolfcarts.com/4x4-golf-carts-pennsylvania
+Title: 4X4 Golf Carts Pennsylvania
+Priority: 0.8
+
+New Jersey
+URL: https://allseasonsgolfcarts.com/4x4-golf-carts-new-jersey
+Title: 4X4 Golf Carts New Jersey
+Priority: 0.8
+
+Virginia
+URL: https://allseasonsgolfcarts.com/4x4-golf-carts-virginia
+Title: 4X4 Golf Carts Virginia
+Priority: 0.8
+
+# ============================================================
+# RESOURCES
+# ============================================================
+
+XT4 Spec Sheet (PDF)
+URL: https://allseasonsgolfcarts.com/xt4-spec-sheet.pdf
+Type: PDF Document
+Priority: 0.5
+
+XT6 Spec Sheet (PDF)
+URL: https://allseasonsgolfcarts.com/xt6-spec-sheet.pdf
+Type: PDF Document
+Priority: 0.5
+
+# ============================================================
+# SEO/AI FILES
+# ============================================================
+
+Sitemap: https://allseasonsgolfcarts.com/sitemap.xml
+Robots: https://allseasonsgolfcarts.com/robots.txt
+LLMs: https://allseasonsgolfcarts.com/llms.txt
+AI: https://allseasonsgolfcarts.com/ai.txt
+GPT: https://allseasonsgolfcarts.com/gpt.txt
+Claude: https://allseasonsgolfcarts.com/claude.txt
+Training: https://allseasonsgolfcarts.com/training.txt
+SEO: https://allseasonsgolfcarts.com/seo.txt
+NLP: https://allseasonsgolfcarts.com/nlp.txt
+Accessibility: https://allseasonsgolfcarts.com/accessibility.txt
+Bots: https://allseasonsgolfcarts.com/bots.txt
+Geo: https://allseasonsgolfcarts.com/geo.txt
+Crawlers: https://allseasonsgolfcarts.com/crawlers.txt
+Humans: https://allseasonsgolfcarts.com/humans.txt
+Security: https://allseasonsgolfcarts.com/security.txt
+Ads: https://allseasonsgolfcarts.com/ads.txt
+Manifest: https://allseasonsgolfcarts.com/manifest.json
+Browserconfig: https://allseasonsgolfcarts.com/browserconfig.xml
+OpenSearch: https://allseasonsgolfcarts.com/opensearch.xml
+Schema: https://allseasonsgolfcarts.com/schema.txt
+
+# ============================================================
+# TOTAL PAGES
+# ============================================================
+
+Main Pages: 5
+Blog Posts: 8
+Location Pages: 5
+Resources: 2
+SEO/AI Files: 20+
+
+Total Indexable Content: 20+ pages
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

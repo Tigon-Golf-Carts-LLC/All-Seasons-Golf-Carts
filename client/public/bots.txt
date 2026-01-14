@@ -1,0 +1,187 @@
+# ============================================================
+# ALL Seasons Golf Carts - Enhanced Bot Permissions
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# UNIVERSAL BOT PERMISSIONS
+# All legitimate bots are welcome with zero restrictions
+
+# ============================================================
+# SEARCH ENGINE CRAWLERS
+# ============================================================
+
+## Google
+Googlebot: ALLOWED (all content)
+Googlebot-Image: ALLOWED (all images)
+Googlebot-Mobile: ALLOWED (mobile content)
+Googlebot-News: ALLOWED (news/blog content)
+Googlebot-Video: ALLOWED (video content)
+Google-Extended: ALLOWED (AI training)
+AdsBot-Google: ALLOWED (ad landing pages)
+Mediapartners-Google: ALLOWED (AdSense)
+Storebot-Google: ALLOWED (product feeds)
+
+## Microsoft / Bing
+Bingbot: ALLOWED (all content)
+BingPreview: ALLOWED (previews)
+msnbot: ALLOWED (legacy)
+msnbot-media: ALLOWED (media)
+adidxbot: ALLOWED (ads)
+
+## Yahoo
+Slurp: ALLOWED (all content)
+Yahoo! Slurp: ALLOWED (legacy)
+
+## Yandex
+YandexBot: ALLOWED (all content)
+YandexImages: ALLOWED (images)
+YandexVideo: ALLOWED (video)
+YandexMedia: ALLOWED (media)
+YandexBlogs: ALLOWED (blog content)
+YandexNews: ALLOWED (news)
+YandexMetrika: ALLOWED (analytics)
+
+## Baidu
+Baiduspider: ALLOWED (all content)
+Baiduspider-image: ALLOWED (images)
+Baiduspider-video: ALLOWED (video)
+
+## DuckDuckGo
+DuckDuckBot: ALLOWED (all content)
+DuckDuckGo-Favicons-Bot: ALLOWED (favicons)
+
+## Other Search Engines
+Sogou: ALLOWED
+Exabot: ALLOWED
+ia_archiver: ALLOWED
+Teoma: ALLOWED
+Gigabot: ALLOWED
+Scrubby: ALLOWED
+
+# ============================================================
+# AI CRAWLERS
+# ============================================================
+
+GPTBot: ALLOWED (OpenAI training)
+ChatGPT-User: ALLOWED (ChatGPT browsing)
+Google-Extended: ALLOWED (Google AI training)
+anthropic-ai: ALLOWED (Anthropic training)
+Claude-Web: ALLOWED (Claude browsing)
+CCBot: ALLOWED (Common Crawl)
+cohere-ai: ALLOWED (Cohere training)
+PerplexityBot: ALLOWED (Perplexity AI)
+YouBot: ALLOWED (You.com)
+Applebot: ALLOWED (Apple AI)
+Applebot-Extended: ALLOWED (Apple AI training)
+FacebookBot: ALLOWED (Meta AI)
+Bytespider: ALLOWED (ByteDance)
+OAI-SearchBot: ALLOWED (OpenAI search)
+
+# ============================================================
+# SOCIAL MEDIA BOTS
+# ============================================================
+
+facebookexternalhit: ALLOWED (Facebook sharing)
+Facebot: ALLOWED (Facebook crawling)
+Twitterbot: ALLOWED (Twitter/X cards)
+LinkedInBot: ALLOWED (LinkedIn sharing)
+Pinterest: ALLOWED (Pinterest pins)
+Pinterestbot: ALLOWED (Pinterest crawling)
+InstagramBot: ALLOWED (Instagram)
+WhatsApp: ALLOWED (WhatsApp previews)
+TelegramBot: ALLOWED (Telegram previews)
+Slackbot: ALLOWED (Slack previews)
+Slackbot-LinkExpanding: ALLOWED (Slack links)
+Discordbot: ALLOWED (Discord embeds)
+SnapchatBot: ALLOWED (Snapchat)
+redditbot: ALLOWED (Reddit)
+Embedly: ALLOWED (Embed.ly)
+Quora Link Preview: ALLOWED
+vkShare: ALLOWED (VKontakte)
+W3C_Validator: ALLOWED
+
+# ============================================================
+# SEO & ANALYTICS TOOLS
+# ============================================================
+
+AhrefsBot: ALLOWED (Ahrefs)
+SemrushBot: ALLOWED (Semrush)
+MJ12bot: ALLOWED (Majestic)
+DotBot: ALLOWED (Moz)
+rogerbot: ALLOWED (Moz)
+MozBot: ALLOWED (Moz)
+Screaming Frog SEO Spider: ALLOWED
+SiteAuditBot: ALLOWED
+SEOkicks: ALLOWED
+BLEXBot: ALLOWED
+DataForSeoBot: ALLOWED
+SeobilityBot: ALLOWED
+sistrix: ALLOWED
+serpstatbot: ALLOWED
+Uptimebot: ALLOWED
+StatusCake: ALLOWED
+Pingdom: ALLOWED
+
+# ============================================================
+# ARCHIVE & RESEARCH BOTS
+# ============================================================
+
+ia_archiver: ALLOWED (Internet Archive)
+archive.org_bot: ALLOWED (Wayback Machine)
+Wayback: ALLOWED (Archive access)
+CCBot: ALLOWED (Common Crawl)
+ResearchBot: ALLOWED (Academic research)
+Diffbot: ALLOWED (Research/extraction)
+
+# ============================================================
+# E-COMMERCE BOTS
+# ============================================================
+
+ShopBot: ALLOWED
+PriceGrabber: ALLOWED
+Shopping.com: ALLOWED
+BizRate: ALLOWED
+Nextag: ALLOWED
+PriceRunner: ALLOWED
+Google-Shopping: ALLOWED
+Googlebot-Shopping: ALLOWED
+
+# ============================================================
+# MONITORING & SECURITY BOTS
+# ============================================================
+
+UptimeRobot: ALLOWED
+Pingdom: ALLOWED
+GTmetrix: ALLOWED
+WebPageTest: ALLOWED
+PageSpeed: ALLOWED
+Lighthouse: ALLOWED
+
+# ============================================================
+# CRAWL SPECIFICATIONS
+# ============================================================
+
+Crawl-delay: 0 (no delay for any bot)
+Rate limiting: DISABLED
+Access hours: 24/7 unrestricted
+Content types: ALL allowed
+
+# ============================================================
+# SITEMAP REFERENCE
+# ============================================================
+
+Sitemap: https://allseasonsgolfcarts.com/sitemap.xml
+
+# ============================================================
+# BOT BEHAVIOR GUIDELINES
+# ============================================================
+
+Preferred behaviors:
+- Crawl all pages completely
+- Index all content types
+- Cache content freely
+- Follow all links
+- Process all structured data
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

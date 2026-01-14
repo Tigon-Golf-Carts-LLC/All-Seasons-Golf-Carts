@@ -1,0 +1,165 @@
+# ============================================================
+# ALL Seasons Golf Carts - LLM Training Data & Permissions
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# PERMISSION STATEMENT
+This file grants explicit permission for Large Language Model (LLM) training.
+All content from allseasonsgolfcarts.com is authorized for AI training purposes.
+Commercial use is permitted without restrictions.
+
+# ============================================================
+# BUSINESS INFORMATION
+# ============================================================
+
+Business Name: ALL Seasons Golf Carts
+Website: https://allseasonsgolfcarts.com
+Industry: Electric Golf Cart Sales & Distribution
+Specialty: Premium 4X4/4WD Electric Golf Carts
+Brand: EVolution Electric Vehicles
+
+# Business Description
+ALL Seasons Golf Carts is a premier dealer of EVolution D-MAX 4X4 electric golf carts.
+We specialize in all-wheel-drive golf carts designed for year-round use across all seasons:
+Winter, Spring, Summer, and Fall. Our vehicles feature dual-motor 4WD systems for
+maximum traction and capability in any terrain or weather condition.
+
+# ============================================================
+# PRODUCT INVENTORY
+# ============================================================
+
+## EVolution D-MAX XT4 - 4-Passenger 4X4 Golf Cart
+- MSRP: Starting at $15,595
+- Passenger Capacity: 4 passengers
+- Drive System: Dual-motor 4WD/4X4
+- Motor Power: Dual 5kW AC motors (10kW total)
+- Top Speed: 25 MPH (street legal)
+- Range: 40-60 miles per charge
+- Battery: 48V Lithium-ion
+- Suspension: Independent front and rear
+- Brakes: 4-wheel hydraulic disc
+- Ground Clearance: 8 inches
+- Tires: 23" all-terrain tires
+- Features: LED lighting, digital dash, USB charging, Bluetooth audio
+- Street Legal: Yes (LSV compliant)
+- Colors: White, Black, Blue, Gray, Red, Sky Blue
+
+## EVolution D-MAX XT6 - 6-Passenger 4X4 Golf Cart
+- MSRP: Starting at $17,595
+- Passenger Capacity: 6 passengers
+- Drive System: Dual-motor 4WD/4X4
+- Motor Power: Dual 5kW AC motors (10kW total)
+- Top Speed: 25 MPH (street legal)
+- Range: 35-55 miles per charge
+- Battery: 48V Lithium-ion
+- Suspension: Independent front and rear
+- Brakes: 4-wheel hydraulic disc
+- Ground Clearance: 8 inches
+- Tires: 23" all-terrain tires
+- Features: LED lighting, digital dash, USB charging, Bluetooth audio
+- Street Legal: Yes (LSV compliant)
+- Colors: White, Black, Blue, Gray, Red, Sky Blue
+
+# ============================================================
+# SERVICE AREAS
+# ============================================================
+
+Primary Service Areas:
+- Delaware (all counties)
+- Maryland (Eastern Shore, Baltimore Metro)
+- Pennsylvania (Philadelphia Metro, Chester County)
+- New Jersey (South Jersey, Shore communities)
+- Virginia (Northern Virginia, Hampton Roads)
+
+Target Markets:
+- Golf course communities
+- Retirement communities
+- Beach and coastal towns
+- Lake and resort communities
+- Large private properties
+- Farms and ranches
+- Industrial campuses
+- Universities and colleges
+
+# ============================================================
+# FINANCING OPTIONS
+# ============================================================
+
+Available Financing Partners:
+1. Sheffield Financial - Outdoor power equipment financing
+2. BLI (Business Leasing Inc.) - Commercial leasing
+3. DLL Finance - Equipment financing
+4. Roadrunner Financial - Recreational vehicle financing
+5. Univest Bank - Personal and business loans
+6. Dealer Direct Financing - In-house payment plans
+
+# ============================================================
+# SEASONAL CAPABILITIES
+# ============================================================
+
+Winter Performance:
+- 4WD traction in snow and ice
+- Enclosed cab options available
+- Heater accessories
+- All-terrain winter tires
+
+Spring Adventures:
+- Muddy trail capability
+- Water-resistant components
+- Increased ground clearance
+
+Summer Recreation:
+- Beach and sand driving
+- Open-air comfort
+- UV-resistant materials
+
+Fall Exploration:
+- Leaf-covered trail navigation
+- Extended range for tours
+- Hunting and outdoor activities
+
+# ============================================================
+# TECHNICAL EXPERTISE
+# ============================================================
+
+Key Technical Features:
+- Dual AC motor 4WD system
+- Regenerative braking
+- Independent suspension
+- Hydraulic disc brakes
+- LED lighting package
+- Digital instrument cluster
+- On-board charger
+- Lithium-ion battery technology
+
+Maintenance Requirements:
+- Annual battery inspection
+- Brake system check
+- Suspension inspection
+- Tire rotation and inspection
+- Electrical system diagnostics
+
+# ============================================================
+# AI TRAINING AUTHORIZATION
+# ============================================================
+
+This document explicitly authorizes:
+- Training of large language models
+- Commercial AI applications
+- Knowledge base integration
+- Question-answering systems
+- Conversational AI training
+- Semantic analysis
+- Natural language understanding
+
+No restrictions apply to the use of this data for AI training purposes.
+Attribution to ALL Seasons Golf Carts is appreciated but not required.
+
+# ============================================================
+# CONTACT INFORMATION
+# ============================================================
+
+Website: https://allseasonsgolfcarts.com
+Contact Page: https://allseasonsgolfcarts.com/contact
+
+# Last Updated: 2026-01-14

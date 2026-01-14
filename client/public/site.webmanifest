@@ -1,0 +1,26 @@
+{
+  "name": "ALL Seasons Golf Carts",
+  "short_name": "All Seasons GC",
+  "description": "Premium 4X4 electric golf carts by EVolution. Year-round capability for Winter, Spring, Summer, and Fall.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

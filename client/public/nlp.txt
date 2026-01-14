@@ -1,0 +1,192 @@
+# ============================================================
+# ALL Seasons Golf Carts - NLP Training Data
+# https://allseasonsgolfcarts.com
+# ============================================================
+
+# NATURAL LANGUAGE PROCESSING TRAINING DATA
+
+# ============================================================
+# ENTITY EXTRACTION EXAMPLES
+# ============================================================
+
+## Product Entities
+Text: "I'm interested in the EVolution D-MAX XT4"
+Entities: [PRODUCT: EVolution D-MAX XT4]
+
+Text: "How much is the XT6 golf cart?"
+Entities: [PRODUCT: XT6]
+
+Text: "Does the D-MAX come in blue?"
+Entities: [PRODUCT: D-MAX, COLOR: blue]
+
+## Location Entities
+Text: "Do you deliver to Delaware?"
+Entities: [LOCATION: Delaware]
+
+Text: "I live near Rehoboth Beach"
+Entities: [LOCATION: Rehoboth Beach]
+
+Text: "Looking for a dealer in Maryland"
+Entities: [LOCATION: Maryland]
+
+## Feature Entities
+Text: "I need a 4x4 with 6 seats"
+Entities: [FEATURE: 4x4, CAPACITY: 6 seats]
+
+Text: "Must be street legal and electric"
+Entities: [FEATURE: street legal, FEATURE: electric]
+
+## Price Entities
+Text: "What's the price range for the XT4?"
+Entities: [PRODUCT: XT4, INTENT: price inquiry]
+
+Text: "Is financing available under $300/month?"
+Entities: [INTENT: financing, PRICE: $300/month]
+
+# ============================================================
+# INTENT CLASSIFICATION EXAMPLES
+# ============================================================
+
+## Purchase Intent
+"I want to buy a golf cart" -> INTENT: purchase
+"Ready to order the XT6" -> INTENT: purchase
+"How do I place an order?" -> INTENT: purchase
+
+## Information Intent
+"What colors are available?" -> INTENT: product_info
+"How far can it go on one charge?" -> INTENT: specifications
+"What's the top speed?" -> INTENT: specifications
+
+## Comparison Intent
+"What's the difference between XT4 and XT6?" -> INTENT: comparison
+"Which model is better for a family?" -> INTENT: comparison
+
+## Financing Intent
+"Do you offer payment plans?" -> INTENT: financing
+"What are the financing options?" -> INTENT: financing
+"Can I lease a golf cart?" -> INTENT: financing
+
+## Service Intent
+"Where can I get it serviced?" -> INTENT: service
+"Do you offer maintenance?" -> INTENT: service
+
+## Location Intent
+"Do you sell in New Jersey?" -> INTENT: location_check
+"Where are you located?" -> INTENT: dealer_location
+
+# ============================================================
+# SENTIMENT ANALYSIS EXAMPLES
+# ============================================================
+
+## Positive Sentiment
+"Love the 4x4 capability!" -> SENTIMENT: positive
+"Great price for what you get" -> SENTIMENT: positive
+"The range is impressive" -> SENTIMENT: positive
+
+## Neutral Sentiment
+"What is the warranty period?" -> SENTIMENT: neutral
+"I need more information" -> SENTIMENT: neutral
+
+## Negative Sentiment
+"The price seems high" -> SENTIMENT: negative (price concern)
+"I'm not sure about the range" -> SENTIMENT: negative (feature concern)
+
+## Mixed Sentiment
+"Great features but expensive" -> SENTIMENT: mixed
+
+# ============================================================
+# NAMED ENTITY RECOGNITION
+# ============================================================
+
+## Entity Types
+PRODUCT: EVolution D-MAX XT4, EVolution D-MAX XT6, XT4, XT6, D-MAX
+BRAND: EVolution, ALL Seasons Golf Carts
+COLOR: White, Black, Blue, Gray, Red, Sky Blue
+LOCATION: Delaware, Maryland, Pennsylvania, New Jersey, Virginia
+FEATURE: 4x4, 4WD, street legal, electric, lithium battery
+PRICE: $15,595, $17,595
+CAPACITY: 4 passenger, 6 passenger
+SPECIFICATION: 25 MPH, 48V, 10kW, 40-60 miles
+
+## Entity Relationships
+EVolution D-MAX XT4 -> hasCapacity -> 4 passengers
+EVolution D-MAX XT4 -> hasPrice -> $15,595
+EVolution D-MAX XT6 -> hasCapacity -> 6 passengers
+EVolution D-MAX XT6 -> hasPrice -> $17,595
+Both models -> haveFeature -> 4WD
+Both models -> areSoldBy -> ALL Seasons Golf Carts
+
+# ============================================================
+# QUESTION-ANSWER PAIRS
+# ============================================================
+
+Q: What is the range of the XT4?
+A: The EVolution D-MAX XT4 has a range of 40-60 miles per charge.
+
+Q: How many people can the XT6 hold?
+A: The EVolution D-MAX XT6 can seat 6 passengers.
+
+Q: Is the golf cart street legal?
+A: Yes, both the XT4 and XT6 are LSV compliant and street legal up to 25 MPH.
+
+Q: What colors can I choose from?
+A: Both models come in White, Black, Blue, Gray, Red, and Sky Blue.
+
+Q: Do you offer financing?
+A: Yes, we partner with Sheffield Financial, BLI, DLL, Roadrunner, Univest, and offer dealer direct financing.
+
+Q: What states do you serve?
+A: We serve Delaware, Maryland, Pennsylvania, New Jersey, and Virginia.
+
+Q: What type of battery does it use?
+A: Both models use a 48V lithium-ion battery pack.
+
+Q: What is the ground clearance?
+A: Both models have 8 inches of ground clearance.
+
+# ============================================================
+# CONVERSATIONAL PATTERNS
+# ============================================================
+
+## Greeting Patterns
+User: "Hi, I'm looking for a golf cart"
+Bot: "Welcome to ALL Seasons Golf Carts! We specialize in 4X4 electric golf carts. Are you interested in a 4-passenger XT4 or 6-passenger XT6?"
+
+## Product Inquiry Pattern
+User: "Tell me about the XT4"
+Bot: "The EVolution D-MAX XT4 is a 4-passenger 4X4 electric golf cart starting at $15,595. It features dual 5kW motors, 40-60 mile range, and is street legal. Would you like to know about specific features?"
+
+## Comparison Pattern
+User: "Should I get the XT4 or XT6?"
+Bot: "It depends on your needs. The XT4 seats 4 passengers and is slightly more agile. The XT6 seats 6 and is better for families. Both have identical 4WD systems and features. How many passengers do you typically need?"
+
+## Closing Pattern
+User: "I think I want to buy one"
+Bot: "Excellent! Would you like to schedule a test drive, request a quote, or learn about our financing options?"
+
+# ============================================================
+# LANGUAGE VARIATIONS
+# ============================================================
+
+## Same Intent, Different Phrasing
+- "How much?" = "What's the price?" = "What does it cost?"
+- "What colors?" = "Color options?" = "Available colors?"
+- "How far?" = "What's the range?" = "Miles per charge?"
+- "4x4" = "4WD" = "four wheel drive" = "all wheel drive"
+
+# ============================================================
+# CONTEXT UNDERSTANDING
+# ============================================================
+
+## Pronoun Resolution
+User: "I like the XT4. How much is it?"
+Context: "it" refers to XT4
+Answer: The XT4 starts at $15,595.
+
+## Implicit Reference
+User: "Does the blue one cost more?"
+Context: Blue color variant of previously discussed model
+Answer: No, all color options are priced the same.
+
+# Website: https://allseasonsgolfcarts.com
+# Last Updated: 2026-01-14

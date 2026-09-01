@@ -1,0 +1,75 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish; queue at most one more.
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve deployment URL
+        id: target
+        # A CNAME means a custom domain served from the root. Without one the
+        # site lives at https://<owner>.github.io/<repo>/ and needs a base path
+        # (unless the repo itself is the <owner>.github.io user page).
+        run: |
+          repo="${GITHUB_REPOSITORY#*/}"
+          owner_host="$(echo "${GITHUB_REPOSITORY%%/*}" | tr '[:upper:]' '[:lower:]').github.io"
+          if [ -f client/public/CNAME ]; then
+            domain="$(tr -d '[:space:]' < client/public/CNAME)"
+            echo "base_path=/" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${domain}" >> "$GITHUB_OUTPUT"
+          elif [ "$(echo "$repo" | tr '[:upper:]' '[:lower:]')" = "$owner_host" ]; then
+            echo "base_path=/" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${owner_host}" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_path=${repo}" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${owner_host}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build static site
+        env:
+          BASE_PATH: ${{ steps.target.outputs.base_path }}
+          VITE_SITE_URL: ${{ steps.target.outputs.site_url }}
+          # Optional: a form endpoint (Formspree, Web3Forms, ...). When unset,
+          # the contact form falls back to opening a pre-filled email.
+          VITE_CONTACT_ENDPOINT: ${{ vars.CONTACT_ENDPOINT }}
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

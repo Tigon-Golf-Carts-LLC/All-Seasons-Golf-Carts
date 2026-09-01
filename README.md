@@ -38,8 +38,16 @@ runtime environment variables.
 ## Deploying to GitHub Pages
 
 `.github/workflows/deploy-pages.yml` builds and publishes on every push to
-`main`. To turn it on: **Settings → Pages → Build and deployment → Source →
-GitHub Actions**.
+`main`.
+
+**One-time setup, required before the first deploy can succeed:**
+**Settings → Pages → Build and deployment → Source → GitHub Actions.**
+
+Until that is set, the workflow builds fine but fails at `configure-pages`
+with `Get Pages site failed ... Not Found`. It cannot be automated from the
+workflow — creating a Pages site needs admin rights that the Actions
+`GITHUB_TOKEN` does not have, so `configure-pages`'s `enablement` option fails
+with `Resource not accessible by integration`.
 
 The workflow figures out the base path and site URL by itself:
 

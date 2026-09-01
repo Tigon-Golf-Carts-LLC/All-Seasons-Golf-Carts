@@ -58,11 +58,10 @@ jobs:
           VITE_CONTACT_ENDPOINT: ${{ vars.CONTACT_ENDPOINT }}
         run: npm run build
 
+      # Requires Pages to already be enabled with "GitHub Actions" as the
+      # source (Settings -> Pages). The enablement option is not usable here:
+      # creating a Pages site needs admin rights that GITHUB_TOKEN lacks.
       - uses: actions/configure-pages@v5
-        # Turns Pages on and points it at GitHub Actions the first time this
-        # runs, so the repository setting does not have to be flipped by hand.
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

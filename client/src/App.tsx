@@ -1,10 +1,9 @@
-import { Switch, Route } from "wouter";
-import { queryClient } from "./lib/queryClient";
-import { QueryClientProvider } from "@tanstack/react-query";
+import { Router, Switch, Route } from "wouter";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Seo } from "@/components/Seo";
 import Home from "@/pages/Home";
 import ModelXT4 from "@/pages/ModelXT4";
 import ModelXT6 from "@/pages/ModelXT6";
@@ -15,8 +14,9 @@ import Blog from "@/pages/Blog";
 import BlogPost from "@/pages/BlogPost";
 import NotFound from "@/pages/not-found";
 import { locations } from "@/data/locations";
+import { BASE_PATH } from "@/lib/site";
 
-function Router() {
+function Routes() {
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -34,20 +34,26 @@ function Router() {
   );
 }
 
-function App() {
+interface AppProps {
+  /** Set by the pre-render step so routes resolve without a browser location. */
+  ssrPath?: string;
+}
+
+function App({ ssrPath }: AppProps) {
   return (
-    <QueryClientProvider client={queryClient}>
+    <Router base={BASE_PATH.replace(/\/+$/, "")} ssrPath={ssrPath}>
       <TooltipProvider>
+        <Seo />
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
-            <Router />
+            <Routes />
           </main>
           <Footer />
         </div>
         <Toaster />
       </TooltipProvider>
-    </QueryClientProvider>
+    </Router>
   );
 }
 

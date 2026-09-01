@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useLocation, Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -151,44 +150,6 @@ export default function LocationPage() {
   const [pathname] = useLocation();
   const slug = pathname.slice(1);
   const location = getLocationBySlug(slug);
-
-  useEffect(() => {
-    if (location) {
-      document.title = `All Seasons Golf Cart in ${location.name} | EVolution D-MAX 4X4`;
-      
-      let metaDescription = document.querySelector('meta[name="description"]');
-      if (!metaDescription) {
-        metaDescription = document.createElement('meta');
-        metaDescription.setAttribute('name', 'description');
-        document.head.appendChild(metaDescription);
-      }
-      metaDescription.setAttribute('content', 
-        `Premium 4X4 electric golf carts available in ${location.name}. EVolution D-MAX XT4 and XT6 with dual-motor all-season capability, street-legal LSV options. Call (844) 884-6744.`
-      );
-
-      let ogTitle = document.querySelector('meta[property="og:title"]');
-      if (!ogTitle) {
-        ogTitle = document.createElement('meta');
-        ogTitle.setAttribute('property', 'og:title');
-        document.head.appendChild(ogTitle);
-      }
-      ogTitle.setAttribute('content', `All Seasons Golf Cart in ${location.name}`);
-
-      let ogDescription = document.querySelector('meta[property="og:description"]');
-      if (!ogDescription) {
-        ogDescription = document.createElement('meta');
-        ogDescription.setAttribute('property', 'og:description');
-        document.head.appendChild(ogDescription);
-      }
-      ogDescription.setAttribute('content', 
-        `Shop EVolution D-MAX 4X4 golf carts in ${location.name}. Dual-motor power, luxury features, street-legal options available.`
-      );
-    }
-
-    return () => {
-      document.title = 'All Seasons Golf Carts | Premium 4X4 Electric Golf Carts';
-    };
-  }, [location]);
 
   if (!location) {
     return (

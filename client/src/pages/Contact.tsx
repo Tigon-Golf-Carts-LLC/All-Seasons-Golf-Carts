@@ -21,6 +21,11 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import {
+  CONTACT_EMAIL,
+  hasContactEndpoint,
+  submitContactForm,
+} from "@/lib/contact";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -40,27 +45,18 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
+      const result = await submitContactForm(formData);
+      setIsSubmitted(true);
+      toast({
+        title: result.delivered ? "Message Sent!" : "Opening Your Email App",
+        description: result.delivered
+          ? "We'll get back to you as soon as possible."
+          : `Send the pre-filled email to reach us at ${CONTACT_EMAIL}.`,
       });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        toast({
-          title: "Message Sent!",
-          description: "We'll get back to you as soon as possible.",
-        });
-      } else {
-        throw new Error("Failed to send message");
-      }
     } catch (error) {
       toast({
         title: "Error",
-        description: "Failed to send message. Please try again.",
+        description: `Failed to send message. Please try again or email us at ${CONTACT_EMAIL}.`,
         variant: "destructive",
       });
     } finally {
@@ -97,8 +93,9 @@ export default function Contact() {
                     </div>
                     <h3 className="text-2xl font-bold mb-2">Thank You!</h3>
                     <p className="text-muted-foreground mb-6">
-                      Your message has been sent successfully. One of our team members 
-                      will get back to you within 24 hours.
+                      {hasContactEndpoint
+                        ? "Your message has been sent successfully. One of our team members will get back to you within 24 hours."
+                        : `Your email app should have opened with your message ready to send to ${CONTACT_EMAIL}. Once you send it, we'll get back to you within 24 hours.`}
                     </p>
                     <Button onClick={() => setIsSubmitted(false)} variant="outline" data-testid="button-send-another">
                       Send Another Message

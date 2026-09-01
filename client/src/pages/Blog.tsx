@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import { Helmet } from "react-helmet";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Calendar } from "lucide-react";
@@ -7,18 +6,7 @@ import { blogPosts, formatDate } from "@/data/blogPosts";
 
 export default function Blog() {
   return (
-    <>
-      <Helmet>
-        <title>Blog | All Seasons Golf Carts - 4WD Electric Golf Cart News & Guides</title>
-        <meta name="description" content="Explore the All Seasons Golf Carts blog for expert guides on 4WD electric golf carts, seasonal driving tips, off-road adventures, and EVolution D-MAX XT4 & XT6 insights." />
-        <meta property="og:title" content="Blog | All Seasons Golf Carts" />
-        <meta property="og:description" content="Expert guides on 4WD electric golf carts, seasonal driving tips, and off-road adventures with EVolution D-MAX models." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://allseasonsgolfcarts.com/blog" />
-        <link rel="canonical" href="https://allseasonsgolfcarts.com/blog" />
-      </Helmet>
-
-      <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-20">
         <section className="py-12 lg:py-20 bg-gradient-to-b from-muted/50 to-background">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
@@ -69,7 +57,6 @@ export default function Blog() {
             </div>
           </div>
         </section>
-      </div>
-    </>
+    </div>
   );
 }

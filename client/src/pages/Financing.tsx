@@ -118,14 +118,8 @@ function FinancingSchema() {
 }
 
 export default function Financing() {
+  // Page metadata is rendered by <Seo /> from the route manifest.
   useEffect(() => {
-    document.title = "All Seasons Golf Cart Financing | 0% Financing Available | All Seasons Golf Carts";
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute("content", "0% financing on All Seasons Golf Carts. Multiple financing options including no credit impact prequalification, rent-to-own, and business financing. Get your EVolution D-MAX 4X4 golf cart today.");
-    }
-
     window.scrollTo(0, 0);
   }, []);
 

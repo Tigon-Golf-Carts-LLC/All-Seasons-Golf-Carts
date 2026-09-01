@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { ColorSwatches } from "@/components/ColorSwatches";
 import { SpecTable } from "@/components/SpecTable";
 import { VehicleSchema } from "@/components/VehicleSchema";
+import { asset } from "@/lib/site";
 import {
   ArrowRight,
   CheckCircle2,
@@ -241,7 +242,7 @@ export default function ModelXT6() {
                     <ArrowRight className="w-5 h-5" />
                   </Button>
                 </Link>
-                <a href="/xt6-spec-sheet.pdf" download>
+                <a href={asset("/xt6-spec-sheet.pdf")} download>
                   <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2" data-testid="button-xt6-download">
                     <Download className="w-5 h-5" />
                     Download Spec Sheet

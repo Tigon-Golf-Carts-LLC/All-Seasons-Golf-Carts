@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft, ArrowRight, Calendar, Share2 } from "lucide-react";
 import { getBlogPostBySlug, formatDate, blogPosts, BlogSection } from "@/data/blogPosts";
+import { absoluteAssetUrl, canonicalUrl } from "@/lib/site";
 
 function renderContent(section: BlogSection, index: number) {
   const renderTextWithLinks = (text: string) => {
@@ -118,27 +119,18 @@ export default function BlogPost() {
 
   return (
     <>
+      {/* Title, description, canonical and social tags come from <Seo />;
+          this adds the article-specific structured data. */}
       <Helmet>
-        <title>{post.seoTitle}</title>
-        <meta name="description" content={post.metaDescription} />
-        <meta property="og:title" content={post.seoTitle} />
-        <meta property="og:description" content={post.metaDescription} />
-        <meta property="og:image" content={`https://allseasonsgolfcarts.com${post.heroImage}`} />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://allseasonsgolfcarts.com/blog/${post.slug}`} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.seoTitle} />
-        <meta name="twitter:description" content={post.metaDescription} />
-        <meta name="twitter:image" content={`https://allseasonsgolfcarts.com${post.heroImage}`} />
-        <link rel="canonical" href={`https://allseasonsgolfcarts.com/blog/${post.slug}`} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             "headline": post.title,
             "description": post.metaDescription,
-            "image": `https://allseasonsgolfcarts.com${post.heroImage}`,
+            "image": absoluteAssetUrl(post.heroImage),
             "datePublished": post.publishDate,
+            "mainEntityOfPage": canonicalUrl(`/blog/${post.slug}`),
             "author": {
               "@type": "Organization",
               "name": "All Seasons Golf Carts"

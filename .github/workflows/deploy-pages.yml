@@ -59,6 +59,10 @@ jobs:
         run: npm run build
 
       - uses: actions/configure-pages@v5
+        # Turns Pages on and points it at GitHub Actions the first time this
+        # runs, so the repository setting does not have to be flipped by hand.
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

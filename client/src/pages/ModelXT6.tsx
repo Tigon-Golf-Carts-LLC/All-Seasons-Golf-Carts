@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { ColorSwatches } from "@/components/ColorSwatches";
 import { SpecTable } from "@/components/SpecTable";
 import { VehicleSchema } from "@/components/VehicleSchema";
+import { LeadFormModal, ProductLeadCta } from "@/components/LeadFormModal";
 import { asset } from "@/lib/site";
 import {
   ArrowRight,
@@ -44,6 +45,15 @@ import featureLED from "@assets/LED_LIGHTING_XT6_1768315259912.jpg";
 import featureRunningBoard from "@assets/running_board_XT6_1768315259911.jpg";
 import featureWheels from "@assets/16x8.5_Aluminum_Wheel_24x10R16_Quiet_All-Terrain_Tires_XT6T_1768315259911.jpg";
 
+const colorNames: Record<string, string> = {
+  white: "White",
+  black: "Black",
+  blue: "Blue",
+  gray: "Gray",
+  red: "Red",
+  "sky-blue": "Sky Blue",
+};
+
 const colorImages: Record<string, string> = {
   white: xt6White,
   black: xt6Black,
@@ -55,6 +65,7 @@ const colorImages: Record<string, string> = {
 
 export default function ModelXT6() {
   const [selectedColor, setSelectedColor] = useState("red");
+  const vehicle = { brand: "EVolution", model: "EVolution D-MAX XT6 (6-Seat)", color: colorNames[selectedColor] || selectedColor };
 
   const powerSpecs = [
     { label: "Battery", value: "48V Lithium with Smart Management", icon: "battery" as const },
@@ -235,13 +246,17 @@ export default function ModelXT6() {
                 </Card>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <Link href="/contact">
+              <div className="mb-4">
+                <ProductLeadCta vehicle={vehicle} testId="xt6" />
+              </div>
+
+              <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 mb-12">
+                <LeadFormModal vehicle={vehicle} location="XT6 product page (Get a Quote)">
                   <Button size="lg" className="w-full sm:w-auto gap-2" data-testid="button-xt6-quote">
                     Get a Quote
                     <ArrowRight className="w-5 h-5" />
                   </Button>
-                </Link>
+                </LeadFormModal>
                 <a href={asset("/xt6-spec-sheet.pdf")} download>
                   <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2" data-testid="button-xt6-download">
                     <Download className="w-5 h-5" />
@@ -441,12 +456,12 @@ export default function ModelXT6() {
             Contact us today to schedule a test drive or get a personalized quote 
             for your EVolution D-MAX XT6.
           </p>
-          <Link href="/contact">
+          <LeadFormModal vehicle={vehicle} location="XT6 product page (Ready to Ride)">
             <Button size="lg" className="gap-2" data-testid="button-xt6-final-cta">
               Contact Us Today
               <ArrowRight className="w-5 h-5" />
             </Button>
-          </Link>
+          </LeadFormModal>
         </div>
       </section>
     </div>

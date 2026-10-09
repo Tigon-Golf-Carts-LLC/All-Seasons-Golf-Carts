@@ -53,9 +53,10 @@ jobs:
         env:
           BASE_PATH: ${{ steps.target.outputs.base_path }}
           VITE_SITE_URL: ${{ steps.target.outputs.site_url }}
-          # Optional: a form endpoint (Formspree, Web3Forms, ...). When unset,
-          # the contact form falls back to opening a pre-filled email.
-          VITE_CONTACT_ENDPOINT: ${{ vars.CONTACT_ENDPOINT }}
+          # TIGON IOT webhook the lead forms post to, kept out of the public
+          # repo as the TIGON_WEBHOOK_URL repository secret. When unset, the
+          # forms fall back to opening a pre-filled email.
+          VITE_LEAD_ENDPOINT: ${{ secrets.TIGON_WEBHOOK_URL }}
         run: npm run build
 
       - uses: actions/configure-pages@v5

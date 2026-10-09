@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { ColorSwatches } from "@/components/ColorSwatches";
 import { SpecTable } from "@/components/SpecTable";
 import { VehicleSchema } from "@/components/VehicleSchema";
+import { LeadFormModal, ProductLeadCta } from "@/components/LeadFormModal";
 import { asset } from "@/lib/site";
 import {
   ArrowRight,
@@ -48,6 +49,15 @@ import featureLED from "@assets/LED_LIGHTING_XT4_1768315763569.jpg";
 import featureRunningBoard from "@assets/running_board_XT4_1768315763569.jpg";
 import featureWheels from "@assets/16X8.5_Aluminum_Wheels_XT4_1768315763568.jpg";
 
+const colorNames: Record<string, string> = {
+  white: "White",
+  black: "Black",
+  blue: "Blue",
+  gray: "Gray",
+  red: "Red",
+  "sky-blue": "Sky Blue",
+};
+
 const colorImages: Record<string, string> = {
   white: xt4White,
   black: xt4Black,
@@ -59,6 +69,7 @@ const colorImages: Record<string, string> = {
 
 export default function ModelXT4() {
   const [selectedColor, setSelectedColor] = useState("red");
+  const vehicle = { brand: "EVolution", model: "EVolution D-MAX XT4 (4-Seat)", color: colorNames[selectedColor] || selectedColor };
 
   const powerSpecs = [
     { label: "Battery", value: "48V Lithium with Smart Management", icon: "battery" as const },
@@ -252,13 +263,17 @@ export default function ModelXT4() {
                 </Card>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <Link href="/contact">
+              <div className="mb-4">
+                <ProductLeadCta vehicle={vehicle} testId="xt4" />
+              </div>
+
+              <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 mb-12">
+                <LeadFormModal vehicle={vehicle} location="XT4 product page (Get a Quote)">
                   <Button size="lg" className="w-full sm:w-auto gap-2" data-testid="button-xt4-quote">
                     Get a Quote
                     <ArrowRight className="w-5 h-5" />
                   </Button>
-                </Link>
+                </LeadFormModal>
                 <a href={asset("/xt4-spec-sheet.pdf")} download>
                   <Button size="lg" variant="outline" className="w-full sm:w-auto gap-2" data-testid="button-xt4-download">
                     <Download className="w-5 h-5" />
@@ -467,12 +482,12 @@ export default function ModelXT4() {
             Contact us today to schedule a test drive or get a personalized quote 
             for your EVolution D-MAX XT4.
           </p>
-          <Link href="/contact">
+          <LeadFormModal vehicle={vehicle} location="XT4 product page (Ready to Ride)">
             <Button size="lg" className="gap-2" data-testid="button-xt4-final-cta">
               Contact Us Today
               <ArrowRight className="w-5 h-5" />
             </Button>
-          </Link>
+          </LeadFormModal>
         </div>
       </section>
     </div>

@@ -33,7 +33,7 @@ runtime environment variables.
 | --- | --- | --- |
 | `BASE_PATH` | `/` | Sub-path the site is served from. `/` for a custom domain, user page, or Cloudflare Pages; `<repo-name>` for a GitHub Pages project page. |
 | `VITE_SITE_URL` | `https://allseasonsgolfcarts.com` | Origin used for canonical tags, Open Graph URLs, `sitemap.xml` and `robots.txt`. |
-| `VITE_CONTACT_ENDPOINT` | *(unset)* | Where the contact form POSTs. Unset means the form opens a pre-filled email instead. |
+| `VITE_LEAD_ENDPOINT` | *(unset)* | Where the lead forms POST: the TIGON IOT webhook URL, or `/api/lead` on Cloudflare Pages. Unset means the forms open a pre-filled email instead. |
 
 ## Deploying to GitHub Pages
 
@@ -72,21 +72,58 @@ Create a Pages project from this repo with:
 `client/public/_headers` adds caching and security headers there (GitHub Pages
 ignores the file).
 
-## Contact form
+## Lead forms (TIGON IOT Webhook Flows)
 
-A static host cannot send email, so the form has three modes:
+Every lead form sends to the site's own TIGON IOT webhook (Webhook Flows):
 
-1. **No `VITE_CONTACT_ENDPOINT`** (default) — the form opens the visitor's mail
-   client with a pre-filled message to `info@allseasonsgolfcarts.com`. This
-   always works, including on plain GitHub Pages.
-2. **A hosted form service** — set `VITE_CONTACT_ENDPOINT` to a Formspree,
-   Web3Forms or Getform URL. The form POSTs JSON there. In the GitHub Actions
-   workflow this comes from the `CONTACT_ENDPOINT` repository variable
-   (Settings → Secrets and variables → Actions → Variables).
-3. **Cloudflare Pages Function** — build with
-   `VITE_CONTACT_ENDPOINT=/api/contact` and `functions/api/contact.ts` sends the
-   email through [Resend](https://resend.com). Set `RESEND_API_KEY`,
-   `CONTACT_FROM` and `CONTACT_TO` in the Pages project's variables.
+- **Contact page** (`/contact`): the full form.
+- **Product pages** (`/evolution-d-max-xt4`, `/evolution-d-max-xt6`): **Call Now**
+  and **Apply for Financing** buttons, with a **Get Pricing & Availability**
+  button under them that opens the form in a modal. The **Get a Quote** and
+  **Contact Us Today** buttons open the same modal. On these pages brand and
+  model are pre-filled and read-only, and the selected color goes along as an
+  extra `color` field.
+
+The form lives in `client/src/components/LeadForm.tsx` (the modal is in
+`LeadFormModal.tsx`), and sending and tracking live in `client/src/lib/leads.ts`.
+Field names follow the TIGON spec exactly: `first_name`, `last_name`, `email`,
+`phone1`, `phone2`, `address`, `zip_code`, `brand`, `model`, `vin_number`,
+`sku_number`, `comments`, `image_1`–`image_3`. `form_name` is always
+`Contact form`. Before each send the script fills in `url`, `referrer`, the
+first-touch `utm_*`, `gclid` and `fbclid` (kept 30 days in localStorage), and
+`ga_client_id`. A hidden `website` field is the spam trap and is always sent
+empty. An extra `form_location` field records which form was used.
+
+**Never commit the webhook URL or the signing secret.** This repository is
+public, and the key in the URL works like a password.
+
+### GitHub Pages (current setup): browser posts directly, unsigned
+
+Add the webhook URL as a repository secret:
+**Settings → Secrets and variables → Actions → Secrets → New repository secret**,
+name `TIGON_WEBHOOK_URL`, value `https://tigoniot.com/hooks/<key>`. The deploy
+workflow passes it to the build as `VITE_LEAD_ENDPOINT`. Without it the forms
+fall back to a pre-filled email.
+
+GitHub Pages cannot run server code, so it cannot sign requests. Leave
+**Require signature** off in TIGON IOT for this setup, and never put the
+signing secret in a GitHub Actions secret that the build reads: anything baked
+into the build is downloadable by every visitor.
+
+### Cloudflare Pages: signed server-side (recommended)
+
+`functions/api/lead.ts` receives the form at `POST /api/lead`, signs the exact
+raw body with `X-Tigon-Signature: sha256=<HMAC-SHA256>`, and forwards it to
+TIGON. In the Pages project, under **Settings → Variables and Secrets**, add these
+as type **Secret**:
+
+| Name | Value |
+| --- | --- |
+| `TIGON_WEBHOOK_URL` | `https://tigoniot.com/hooks/<key>` |
+| `TIGON_WEBHOOK_SECRET` | From TIGON IOT → Webhook Flows → Webhooks → this webhook → Setup packet → Developers → Create secret |
+
+Add `VITE_LEAD_ENDPOINT=/api/lead` as a plain build variable, redeploy, send
+a test lead, then turn on **Require signature** for the webhook in TIGON IOT.
 
 ## Project structure
 
@@ -100,13 +137,14 @@ client/
     entry-server.tsx  Renders one route to HTML at build time
     main.tsx          Hydrates the pre-rendered markup in the browser
     lib/site.ts       Base-path and canonical-URL helpers
-    lib/contact.ts    Contact form delivery
+    lib/leads.ts      Lead delivery to TIGON IOT + first-touch tracking
     pages/            Home, ModelXT4, ModelXT6, Contact, Financing, Blog,
                       BlogPost, LocationPage, not-found
     components/       Header, Footer, Seo, ColorSwatches, SpecTable,
-                      FeatureCard, VehicleSchema, ui/ (shadcn)
+                      FeatureCard, VehicleSchema, LeadForm,
+                      LeadFormModal, ui/ (shadcn)
     data/             blogPosts.ts (8 posts), locations.ts (66 states/territories)
-functions/api/        Cloudflare Pages Functions (contact form)
+functions/api/        Cloudflare Pages Functions (signed lead forwarding)
 scripts/build.ts      Build + pre-render + sitemap generation
 attached_assets/      Product and blog imagery
 ```
